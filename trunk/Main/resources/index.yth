@@ -1,0 +1,17 @@
+<resources>
+	<skills:resources/skills.yth/>
+	<enemies:resources/enemies.yth/>
+	<sprite_sheets:resources/spritesheets.yth/>
+	<enemy_groups:resources/enemygroups.yth/>
+	<encounters:resources/encounters.yth/>
+	<effects:resources/effects.yth/>
+	<classes:resources/classes.yth/>
+	<ui:resources/ui.yth/>
+	<audio:resources/audio.yth/>
+	<hero_names:resources/hero_names.yth/>
+	<obstacles:resources/obstacles.yth/>
+	<scenarios:resources/scenarios.yth/>
+	<uniques:resources/uniques.yth/>
+	<items:resources/items.yth/>
+	<credits:resources/credits.yth/>
+</resources>

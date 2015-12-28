@@ -1,0 +1,373 @@
+<skill_list>
+	### FINAL CUT ###
+	## IRONCLAD ##
+	<ironclad_base_attack>
+		<display_name:Attack/>
+		<base_cast_time:0.2/>
+		<base_cooldown:1.8/>
+		<range:1/>
+		<flags:99/>
+		<ammunition_cost:0/>
+		<subskill>
+			<name:initial_hit/>
+			<flags:99/>
+			<base_damage:10/>
+			<crit_mod:1.0/>
+			<type:instant/>
+			<radius:0/>
+		</subskill>
+		<tooltip>
+			<title:Heavy Attack/>
+			<description:The Ironclad slams his fist into his opponents face, or nearest equivalent, for heavy damage./>
+			<subtext:"POW! Right in the kisser!"/>
+		</tooltip>
+		<animation:basic_melee/>
+	</ironclad_base_attack>
+	<ironclad_seismic_slam>
+		<display_name:Seismic Slam/>
+		<base_cast_time:0.0/0.0/0.0/>
+		<base_cooldown:6.0/5.5/5.0/>
+		<range:0/0/0/>
+		<ammunition_cost:0/>
+		<flags:166/>
+		<subskill>
+			<name:initial_hit/>
+			<flags:38/>
+			<base_damage:2/5/15/>
+			<crit_mod:1.0/1.0/1.0/>
+			<type:instant/>
+			<radius:1/1/1/>	
+			<effect>
+				<name:seismic_slam_stun/>
+				<flags:6/>
+				<base_damage:0/0/0/>
+				<base_duration:3.0/3.3/3.6/>
+				<ticks:1/1/1/>
+				<int_mod:0/0/0/>
+				<agi_mod:0/0/0/>
+				<str_mod:0/0/0/>
+				<speed_mod:0.0/0.0/0.0/>
+				<damage_mod:0.0/0.0/0.0/>
+				<stun:true/>
+				<type:none/>
+			</effect>
+		</subskill>
+		<tooltip>
+			<title:Seismic Slam/>
+			<description:The Ironclad plunges his massive fists into the ground with such force that anyone in the vicinity is stunned for a short period./>
+			<subtext:"WHAMMY!"/>
+		</tooltip>
+		<animation:basic_melee/>
+	</ironclad_seismic_slam>
+	## END IRONCLAD ##
+	## ALCHEMIST ##
+	<mage_base_attack>
+		<display_name:Attack/>
+		<base_cast_time:0.2/>
+		<base_cooldown:1.0/>
+		<range:30/>
+		<flags:119/>
+		<ammunition_cost:0/>
+		<subskill>
+			<name:initial_hit/>
+			<flags:119/>
+			<base_damage:3/>
+			<crit_mod:1.0/>
+			<projectile:mage_projectile/>
+			<type:projectile/>
+			<radius:0/>
+		</subskill>
+		<tooltip>
+			<title:Magic Missile/>
+			<description:The Alchemist flings a missile of pure energy at his foes for minor damage./>
+			<subtext:"Sadly not of the Darkmagic variety..."/>
+		</tooltip>
+		<animation:spellcast/>
+	</mage_base_attack>
+	<mage_rising_shards>
+		<display_name:Rising Shards/>
+		<base_cast_time:1.0/1.0/1.0/>
+		<base_cooldown:7.0/6.0/5.0/>
+		<range:10/11/12/>
+		<flags:247/>
+		<ammunition_cost:0/>
+		<subskill>
+			<name:shard/>
+			<flags:119/>
+			<base_damage:10/15/20/>
+			<crit_mod:1.0/1.0/1.0/>
+			<projectile:rising_shards/>
+			<type:railgun/>
+			<radius:0/0/0/>
+		</subskill>
+		<tooltip>
+			<title:Rising Shards/>
+			<description:The Alchemist summons shards from the very core of the Earth to rip through the surface and shred his foes. Deals heavy damage in a line./>
+			<subtext:"Lurk moar."/>
+		</tooltip>
+		<animation:spellcast/>
+	</mage_rising_shards>
+	## END ALCHEMIST ##
+	## QUICKSILVER##
+	<quicksilver_base_attack>
+		<display_name:Attack/>
+		<base_cast_time:0.2/>
+		<base_cooldown:0.6/>
+		<range:1/>
+		<flags:99/>
+		<ammunition_cost:0/>
+		<subskill>
+			<name:initial_hit/>
+			<flags:99/>
+			<base_damage:1/>
+			<crit_mod:1.0/>
+			<type:instant/>
+			<radius:0/>
+		</subskill>
+		<tooltip>
+			<title:Quick Attack/>
+			<description:The Quicksilver uses his speed and agility to deliver a swift blow to his enemy./>
+			<subtext:"I can dance all day!"/>
+		</tooltip>
+		<animation:basic_melee/>
+	</quicksilver_base_attack>
+	<quicksilver_rooted_dagger>
+		<display_name:Rooted Dagger/>
+		<base_cast_time:0.5/0.5/0.5/>
+		<base_cooldown:5.0/5.0/4.0/>
+		<range:1/1/1/>
+		<flags:227/>
+		<ammunition_cost:0/>
+		<subskill>
+			<name:initial_hit/>
+			<flags:99/>
+			<base_damage:10/20/30/>
+			<crit_mod:1.0/1.0/1.0/>
+			<type:instant/>
+			<radius:0/0/0/>
+			<effect>
+				<name:root/>
+				<flags:6/>
+				<base_damage:0/0/0/>
+				<base_duration:4.0/5.0/6.0/>
+				<ticks:1/1/1/>
+				<int_mod:0/0/0/>
+				<agi_mod:0/0/0/>
+				<str_mod:0/0/0/>
+				<speed_mod:-1.0/-1.0/-1.0/>
+				<damage_mod:0.0/0.0/0.0/>
+				<stun:false/>
+				<type:none/>
+			</effect>
+		</subskill>
+		<subskill>
+			<name:damage_boost/>
+			<flags:16/>
+			<base_damage:0/0/0/>
+			<crit_mod:1.0/1.0/1.0/>
+			<type:self/>
+			<radius:0/0/0/>
+			<effect>
+				<name:damage_boost/>
+				<flags:16/>
+				<base_damage:0/0/0/>
+				<base_duration:4.0/5.0/6.0/>
+				<ticks:1/1/1/>
+				<int_mod:0/0/0/>
+				<agi_mod:0/0/0/>
+				<str_mod:0/0/0/>
+				<speed_mod:0.0/0.0/0.0/>
+				<damage_mod:0.5/0.7/1.1/>
+				<stun:false/>
+				<type:none/>
+			</effect>
+		</subskill>
+		<tooltip>
+			<title:Rooted Dagger/>
+			<description:Plunging his dagger into his enemy's hamstrings, the Quicksilver roots his foe in place. Seeing his hapless foe squirm feeds his bloodlust and increases his damage for a short while./>
+			<subtext:"I can smell your fear, boy!"/>
+		</tooltip>
+		<animation:basic_melee/>
+	</quicksilver_rooted_dagger>	
+	## END QUICKSILVER ##
+	## ENEMIES ##
+	<enemy_warrior_melee>
+		<display_name:Melee Attack/>
+		<base_cast_time:0.2/>
+		<base_cooldown:1.5/>
+		<range:1/>
+		<ammunition_cost:0/>
+		<flags:99/>
+		<subskill>
+			<name:attack_hit/>
+			<flags:99/>
+			<base_damage:10/>
+			<crit_mod:1.0/>
+			<type:instant/>
+			<radius:0/>
+		</subskill>
+		<tooltip>
+			<title:Melee Attack/>
+			<description:""/>
+			<subtext:""/>
+		</tooltip>
+		<animation:basic_melee/>
+	</enemy_warrior_melee>
+	<enemy_mage_melee>
+		<display_name:Melee Attack/>
+		<base_cast_time:0.2/>
+		<base_cooldown:1.2/>
+		<range:1/>
+		<ammunition_cost:0/>
+		<flags:99/>
+		<subskill>
+			<name:attack_hit/>
+			<flags:99/>
+			<base_damage:5/>
+			<crit_mod:1.0/>
+			<type:instant/>
+			<radius:0/>
+		</subskill>
+		<tooltip>
+			<title:Melee Attack/>
+			<description:""/>
+			<subtext:""/>
+		</tooltip>
+		<animation:basic_melee/>
+	</enemy_mage_melee>
+	## END ENEMIES ##
+	### END FINAL CUT ###
+	### DEBUG SKILLS ###
+	<dummy_ability>
+		<display_name:Nothing/>
+		<base_cast_time:0.0/>
+		<base_cooldown:360.0/>
+		<range:0/>
+		<ammunition_cost:0/>
+		<flags:0/>
+		<tooltip>
+			<title:Blank Slot/>
+			<description:Skill to come./>
+			<subtext:/>
+		</tooltip>
+	</dummy_ability>
+	<targeted_aoe_stun>
+		<display_name:Stun/>
+		<base_cast_time:0.5/>
+		<base_cooldown:6.0/>
+		<range:30/>
+		<ammunition_cost:0/>
+		<flags:0/>
+		<subskill>
+			<name:initial_hit/>
+			<flags:21/>
+			<base_damage:3/>
+			<crit_mod:1.0/>
+			<type:instant/>
+			<radius:2/>	
+			<effect>
+				<name:burning_dot/>
+				<flags:0x0/>
+				<base_damage:0/>
+				<base_duration:10.0/>
+				<ticks:5/>
+				<int_mod:0/>
+				<agi_mod:0/>
+				<str_mod:0/>
+				<speed_mod:0.0/>
+				<damage_mod:0.0/>
+				<stun:true/>
+				<type:none/>
+			</effect>
+		</subskill>
+		<description:""/>
+		<subtext:""/>
+	</targeted_aoe_stun>
+	<npc_fireball>
+		<display_name:Fireball/>
+		<base_cast_time:1.5/>
+		<base_cooldown:3.0/>
+		<range:30/>
+		<ammunition_cost:1/>
+		<flags:0/>
+		<subskill>
+			<name:initial_hit/>
+			<flags:21/>
+			<base_damage:10/>
+			<crit_mod:1.0/>
+			<radius:0/>
+			<projectile:fireball/>
+			<type:projectile/>
+			<effect>
+				<name:burning_dot/>
+				<flags:20/>
+				<base_damage:2/>
+				<base_duration:3.0/>
+				<ticks:3/>
+				<int_mod:0/>
+				<agi_mod:0/>
+				<str_mod:0/>
+				<speed_mod:0.0/>
+				<damage_mod:0.0/>
+				<stun:false/>
+				<type:burning/>
+			</effect>
+		</subskill>
+		<description:""/>
+		<subtext:""/>
+		<animation:spellcast/>
+	</npc_fireball>
+	<npc_basic_melee>
+		<display_name:Attack/>
+		<base_cast_time:0.0/>
+		<base_cooldown:1.0/>
+		<range:1/>
+		<ammunition_cost:0/>
+		<flags:0/>
+		<subskill>
+			<name:attack_hit/>
+			<flags:3/>
+			<base_damage:5/>
+			<crit_mod:1.0/>
+			<crit_mod:1.0/>
+			<type:instant/>
+			<radius:0/>
+		</subskill>
+		<description:""/>
+		<subtext:""/>
+	</npc_basic_melee>
+	<hero_fireball>
+		<display_name:Fireball/>
+		<sfx:fireball_cast.ogg/>
+		<base_cast_time:1.0/>
+		<base_cooldown:2.0/>
+		<range:30/>
+		<ammunition_cost:0/>
+		<flags:0/>
+		<subskill>
+			<name:initial_hit/>
+			<flags:21/>
+			<base_damage:10/>
+			<crit_mod:1.0/>
+			<type:projectile/>
+			<radius:2/>	
+			<projectile:fireball/>
+			<effect>
+				<name:burning_dot/>
+				<flags:20/>
+				<base_damage:5/>
+				<base_duration:10.0/>
+				<ticks:5/>
+				<int_mod:0/>
+				<agi_mod:0/>
+				<str_mod:0/>
+				<speed_mod:0.0/>
+				<damage_mod:0.0/>
+				<stun:false/>
+				<type:burning/>
+			</effect>
+		</subskill>
+		<description:""/>
+		<subtext:""/>
+	</hero_fireball>
+</skill_list>

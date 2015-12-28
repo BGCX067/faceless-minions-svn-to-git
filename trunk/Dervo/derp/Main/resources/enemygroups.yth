@@ -1,0 +1,10 @@
+<enemy_groups>
+	<test_group>
+		<enemy:basic_ranged_enemy/>
+		<enemy:basic_ranged_enemy/>
+		<enemy:basic_ranged_enemy/>
+		<enemy:basic_melee_enemy/>
+		<enemy:basic_melee_enemy/>
+		<enemy:basic_melee_enemy/>
+	</test_group>
+</enemy_groups>

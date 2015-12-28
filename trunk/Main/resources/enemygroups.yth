@@ -1,0 +1,754 @@
+<enemy_groups>
+	<group:bandit>
+		<level:1>
+			<pack>
+				<bandit_normal: 1/>
+				<bandit_light: 1/>
+			</pack>
+			<pack>
+				<bandit_ranged: 1/>
+				<bandit_light: 1/>
+			</pack>
+			<pack>
+				<bandit_normal: 2/>
+			</pack>
+			<pack>
+				<bandit_heavy: 1/>
+				<bandit_light: 1/>
+			</pack>
+			<pack>
+				<bandit_normal: 1/>
+				<bandit_ranged: 1/>
+			</pack>
+			<pack>
+				<bandit_normal: 1/>
+				<bandit_blink: 1/>
+			</pack>
+			<pack>
+				<bandit_normal: 1/>
+				<bandit_heavy: 1/>
+			</pack>
+			<pack>
+				<bandit_ranged: 1/>
+				<bandit_heavy: 1/>
+			</pack>
+			<pack>
+				<bandit_blink: 1/>
+				<bandit_heavy: 1/>
+			</pack>
+			<pack>
+				<bandit_normal: 1/>
+				<bandit_light: 2/>
+			</pack>
+			<pack>
+				<bandit_archer: 1/>
+				<bandit_light: 2/>
+			</pack>
+			<pack>
+				<bandit_heavy: 1/>
+				<bandit_light: 2/>
+			</pack>
+			<pack>
+				<bandit_normal: 1/>
+				<bandit_light: 1/>
+				<bandit_blink: 1/>
+			</pack>
+			<pack>
+				<bandit_normal: 1/>
+				<bandit_light: 1/>
+				<bandit_heavy: 1/>
+			</pack>
+			<pack>
+				<bandit_blink: 1/>
+				<bandit_heavy: 1/>
+				<bandit_ranged: 1/>
+			</pack>
+			<pack>
+				<bandit_heavy: 1/>
+				<bandit_ranged: 2/>
+			</pack>
+		</level>
+		<level:2>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_blink: 1/>	
+			</pack>
+			<pack>
+				<bandit_heavy: 2/>	
+			</pack>
+			<pack>	
+				<bandit_normal: 1/> 
+				<bandit_light: 2/>
+			</pack>
+			<pack>
+				<bandit_ranged: 1/>
+				<bandit_light: 2/> 	
+			</pack>
+			<pack>
+				<bandit_blink: 1/> 
+				<bandit_light: 2/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_light: 2/>		
+			</pack>
+			<pack>
+				<bandit_normal: 3/> 
+				<bandit_light: 2/>
+				<bandit_ranged: 1/>		
+			</pack>
+			<pack>
+				<bandit_light: 2/> 
+				<bandit_normal: 1/> 		
+			</pack>
+			<pack>
+				<bandit_light: 4/>		
+			</pack>
+			<pack>
+				<bandit_normal: 1/> 
+				<bandit_heavy: 1/> 
+				<bandit_light: 1/> 
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_normal: 2/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_ranged: 1/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 2/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 1/> 
+				<bandit_ranged: 1/> 
+				<bandit_light: 2/>		
+			</pack>
+			<pack>
+				<bandit_normal: 2/> 
+				<bandit_ranged: 1/> 
+				<bandit_light: 1/>		
+			</pack>
+			<pack>
+				<bandit_light: 4/> 
+				<bandit_normal: 1/>
+			</pack>
+		</level>
+		<level:3>
+			<pack>
+				<bandit_normal: 4/>  
+				<bandit_ranged: 1/> 
+				<bandit_blink: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 1/> 
+				<bandit_ranged: 2/>		
+			</pack>
+			<pack>
+				<bandit_blink: 1/> 
+				<bandit_normal: 1/> 
+				<bandit_ranged: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 1/> 
+				<bandit_ranged: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 1/> 
+				<bandit_heavy: 1/> 
+				<bandit_ranged: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 1/> 
+				<bandit_heavy: 1/> 
+				<bandit_blink: 1/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_ranged: 2/>		
+			</pack>
+			<pack>
+				<bandit_normal: 1/> 
+				<bandit_heavy: 2/>		
+			</pack>
+			<pack>
+				<bandit_light: 2/> 
+				<bandit_normal: 1/> 
+				<bandit_ranged: 1/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_normal: 1/> 
+				<bandit_light: 2/>		
+			</pack>
+			<pack>
+				<bandit_normal: 2/> 
+				<bandit_ranged: 1/> 
+				<bandit_light: 1/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_normal: 2/> 
+				<bandit_light: 1/> 		
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_ranged: 1/> 
+				<bandit_light: 1/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_normal: 3/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_ranged: 2/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 2/> 
+				<bandit_ranged: 1/> 
+				<bandit_normal: 1/>
+			</pack>
+		</level>
+		<level:4>
+			<pack>
+				<bandit_normal: 3/>  
+				<bandit_light: 1/>		
+			</pack>
+			<pack>
+				<bandit_light: 2/> 
+				<bandit_ranged: 2/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 3/>		
+			</pack>
+			<pack>
+				<bandit_light: 1/> 
+				<bandit_normal: 3/>		
+			</pack>
+			<pack>
+				<bandit_light: 1/> 
+				<bandit_normal: 2/> 
+				<bandit_ranged: 1/>		
+			</pack>
+			<pack>
+				<bandit_light: 2/> 
+				<bandit_heavy: 1/> 
+				<bandit_blink: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 4/>		
+			</pack>
+			<pack>
+				<bandit_blink: 1/>
+				<bandit_ranged: 1/> 
+				<bandit_light: 1/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 3/> 
+				<bandit_blink: 1/> 		
+			</pack>
+			<pack>
+				<bandit_normal: 2/> 
+				<bandit_ranged: 2/>		
+			</pack>
+			<pack>
+				<bandit_normal: 2/>  
+				<bandit_heavy: 1/> 
+				<bandit_ranged: 1/>		
+			</pack>
+			<pack>
+				<bandit_ranged: 1/>
+				<bandit_blink: 1/> 
+				<bandit_light: 3/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 2/> 
+				<bandit_ranged: 1/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 3/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 2/> 
+				<bandit_light: 1/> 
+				<bandit_ranged: 2/> 		
+			</pack>
+			<pack>
+				<bandit_light: 1/> 
+				<bandit_ranged: 2/> 
+				<bandit_normal: 2/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_normal: 1/> 
+				<bandit_blink: 1/> 
+				<bandit_ranged: 1/> 
+				<bandit_light: 1/>
+			</pack>
+		</level>
+		<level:5>
+			<pack>
+				<bandit_normal: 2/> 
+				<bandit_heavy: 1/> 
+				<bandit_ranged: 1/>		
+			</pack>
+			<pack>
+				<bandit_light: 3/> 
+				<bandit_normal: 1/> 
+				<bandit_ranged: 1/>		
+			</pack>
+			<pack>
+				<bandit_light: 3/> 
+				<bandit_blink: 1/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 2/> 
+				<bandit_blink: 1/> 
+				<bandit_heavy: 1/>		
+			</pack>
+			<pack>
+				<bandit_blink: 2/> 
+				<bandit_ranged: 1/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_light: 3/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_blink: 2/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 2/> 
+				<bandit_ranged: 1/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_light: 5/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack> 
+				<bandit_normal: 3/> 
+				<bandit_ranged: 1/> 
+				<bandit_light: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 2/>  
+				<bandit_ranged: 2/> 
+				<bandit_light: 1/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_normal: 3/> 
+				<bandit_light: 1/>  	
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_light: 1/> 
+				<bandit_ranged: 2/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_blink: 1/> 
+				<bandit_ranged: 2/> 
+				<bandit_normal: 2/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 3/> 
+				<bandit_normal: 1/> 
+				<bandit_light: 1/> 
+						
+			</pack>
+			<pack>
+				<bandit_heavy: 2/> 
+				<bandit_blink: 1/>
+				<bandit_normal: 2/>		
+			</pack>
+			<pack>
+				<bandit_ranged: 1/>
+				<bandit_light: 1/> 
+				<bandit_normal: 4/>
+			</pack>
+		</level> 
+		<level:6>
+			<pack>
+				<bandit_heavy: 3/> 
+				<bandit_ranged: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 1/> 
+				<bandit_heavy: 1/> 
+				<bandit_light: 2/> 
+				<bandit_blink: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 1/> 
+				<bandit_heavy: 1/> 
+				<bandit_light: 2/> 
+				<bandit_blink: 1/>		
+			</pack>
+			<pack>
+				<bandit_ranged: 2/> 
+				<bandit_light: 1/> 
+				<bandit_normal: 2/>		
+			</pack>
+			<pack>
+				<bandit_light: 5/> 
+				<bandit_heavy: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 4/> 
+				<bandit_ranged: 1/> 		
+			</pack>
+			<pack>
+				<bandit_blink: 3/> 
+				<bandit_light: 1/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 1/> 
+				<bandit_light: 1/> 
+				<bandit_heavy: 1/> 
+				<bandit_ranged: 1/> 
+				<bandit_blink: 1/>		
+			</pack>
+			<pack> 
+				<bandit_heavy: 1/>
+				<bandit_ranged: 1/> 
+				<bandit_normal: 3/>		
+			</pack>
+			<pack>
+				<bandit_blink: 1/> 
+				<bandit_ranged: 3/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_ranged: 1/> 
+				<bandit_blink: 1/> 
+				<bandit_normal: 2/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 2/> 
+				<bandit_ranged: 1/> 
+				<bandit_normal: 2/>		
+			</pack>
+			<pack>
+				<bandit_normal: 2/> 
+				<bandit_ranged: 2/> 
+				<bandit_light: 2/> 
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_normal: 1/> 
+				<bandit_ranged: 1/> 
+				<bandit_blink: 1/> 
+				<bandit_light: 2/>		
+			</pack>
+			<pack>
+				<bandit_normal: 3/> 
+				<bandit_light: 1/> 
+				<bandit_blink: 1/> 
+				<bandit_ranged: 1/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 2/> 
+				<bandit_light: 1/> 
+				<bandit_normal: 3/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_ranged: 2/> 
+				<bandit_normal: 3/>
+			</pack>
+		</level>
+		<level:7>
+			<pack>
+				<bandit_heavy: 2/> 
+				<bandit_normal: 1/> 
+				<bandit_light: 1/> 
+				<bandit_blink: 1/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 2/> 
+				<bandit_normal: 3/>		
+			</pack>
+			<pack>
+				<bandit_blink: 2/> 
+				<bandit_ranged: 2/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 2/>  
+				<bandit_ranged: 1/> 
+				<bandit_normal: 2/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_ranged: 2/> 
+				<bandit_blink: 1/>  
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 1/> 
+				<bandit_blink: 1/> 
+				<bandit_ranged: 1/> 
+				<bandit_heavy: 2/> 
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_light: 2/> 
+				<bandit_normal: 3/>		
+			</pack>
+			<pack>
+				<bandit_normal: 2/> 
+				<bandit_heavy: 2/> 
+				<bandit_blink: 1/>		
+			</pack>
+			<pack>
+				<bandit_ranged: 1/>
+				<bandit_light: 1/> 
+				<bandit_normal: 4/> 
+			</pack>
+			<pack>
+				<bandit_light: 4/>
+				<bandit_normal: 3/>		
+			</pack>
+			<pack>
+				<bandit_normal: 2/> 
+				<bandit_heavy: 2/> 
+				<bandit_blink: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 2/> 
+				<bandit_ranged: 2/> 
+				<bandit_heavy: 1/> 
+				<bandit_light: 1/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_blink: 1/>  
+				<bandit_ranged: 1/>
+				<bandit_light: 4/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 2/> 
+				<bandit_normal: 4/>		
+			</pack>
+			<pack>
+				<bandit_ranged: 2/> 
+				<bandit_normal: 2/> 
+				<bandit_heavy: 2/>		
+			</pack>
+			<pack>
+				<bandit_light: 3/> 
+				<bandit_ranged: 1/> 
+				<bandit_normal: 1/> 
+				<bandit_heavy: 2/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_light: 2/> 
+				<bandit_blink: 1/>
+				<bandit_ranged: 1/> 
+				<bandit_normal: 2/>
+			</pack>
+		</level>
+		<level:8>
+			<pack>
+				<bandit_ranged: 1/> 
+				<bandit_heavy: 2/> 
+				<bandit_light: 2/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_blink: 1/> 
+				<bandit_heavy: 1/> 
+				<bandit_light: 1/> 
+				<bandit_normal: 3/>		
+			</pack>
+			<pack>
+				<bandit_light: 2/> 
+				<bandit_heavy: 1/> 
+				<bandit_ranged: 3/>		
+			</pack>
+			<pack>
+				<bandit_ranged: 2/> 
+				<bandit_normal: 2/> 
+				<bandit_heavy: 1/> 
+				<bandit_light: 1/> 
+			</pack>
+			<pack>
+				<bandit_normal: 3/> 
+				<bandit_heavy: 2/> 
+				<bandit_light: 1/> 		
+			</pack>
+			<pack>
+				<bandit_blink: 2/> 
+				<bandit_normal: 4/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 1/> 
+				<bandit_light: 1/> 
+				<bandit_blink: 2/>
+				<bandit_normal: 2/>		
+			</pack>
+			<pack>
+				<bandit_blink: 1/> 
+				<bandit_ranged: 3/> 
+				<bandit_normal: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 1/> 
+				<bandit_heavy: 2/> 
+				<bandit_light: 4/>		
+			</pack>
+			<pack>
+				<bandit_blink: 3/> 
+				<bandit_ranged: 2/>
+				<bandit_heavy: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 2/> 
+				<bandit_heavy: 2/>
+				<bandit_ranged: 1/> 
+				<bandit_blink: 1/>		
+			</pack>
+			<pack>
+				<bandit_light: 9/>		
+			</pack>
+			<pack>
+				<bandit_normal: 1/> 
+				<bandit_ranged: 1/> 
+				<bandit_blink: 1/> 
+				<bandit_heavy: 3/>		
+			</pack>
+			<pack>
+				<bandit_normal: 3/> 
+				<bandit_heavy: 1/> 
+				<bandit_light: 1/> 
+				<bandit_blink: 1/>		
+			</pack>
+			<pack>
+				<bandit_normal: 3/> 
+				<bandit_heavy: 1/> 
+				<bandit_light: 1/> 
+				<bandit_blink: 2/>
+			</pack>
+			<pack>
+				<bandit_heavy: 2/> 
+				<bandit_ranged: 2/> 
+				<bandit_normal: 2/>
+				<bandit_light: 1/> 		
+			</pack>
+			<pack>
+				<bandit_heavy: 4/>
+				<bandit_light: 2/> 
+				<bandit_ranged: 1/>
+			</pack>
+		</level>
+		<level:9>
+			<pack>
+				<bandit_normal: 4/> 
+				<bandit_heavy: 1/> 
+				<bandit_light: 2/>		
+			</pack>
+			<pack>
+				<bandit_normal: 1/> 
+				<bandit_heavy: 1/> 
+				<bandit_blink: 1/> 
+				<bandit_ranged: 3/>		
+			</pack>
+			<pack>
+				<bandit_light: 1/> 
+				<bandit_ranged: 1/> 
+				<bandit_blink: 1/> 
+				<bandit_heavy: 3/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 3/> 
+				<bandit_blink: 2/> 
+				<bandit_light: 1/>		
+			</pack>
+			<pack>
+				<bandit_light: 1/> 
+				<bandit_ranged: 1/> 
+				<bandit_normal: 5/> 
+			</pack>
+			<pack>
+				<bandit_normal: 3/> 
+				<bandit_light: 2/> 
+				<bandit_heavy: 1/> 
+				<bandit_blink: 1/>		
+			</pack>
+			<pack>
+				<bandit_blink: 3/> 
+				<bandit_heavy: 1/> 
+				<bandit_ranged: 2/>		
+			</pack>
+			<pack>
+				<bandit_ranged: 4/> 
+				<bandit_heavy: 2/>		
+			</pack>
+			<pack>
+				<bandit_ranged: 1/>
+				<bandit_normal: 2/> 
+				<bandit_light: 2/> 
+				<bandit_heavy: 2/> 		
+			</pack>
+			<pack>
+				<bandit_heavy: 4/>
+				<bandit_ranged: 2/>		
+			</pack>
+			<pack>
+				<bandit_normal: 4/>
+				<bandit_ranged: 2/> 
+				<bandit_blink: 1/> 		
+			</pack>
+			<pack>
+				<bandit_light: 4/>
+				<bandit_heavy: 1/> 
+				<bandit_ranged: 2/>		
+			</pack>
+			<pack>
+				<bandit_heavy: 3/> 
+				<bandit_ranged: 1/> 
+				<bandit_normal: 2/> 
+				<bandit_light: 1/>		
+			</pack>
+			<pack>
+				<bandit_blink: 3/> 
+				<bandit_ranged: 2/> 
+				<bandit_normal: 2/>		
+			</pack>
+			<pack> 
+				<bandit_blink: 1/> 
+				<bandit_normal: 1/> 
+				<bandit_heavy: 4/> 
+				<bandit_light: 1/>		
+			</pack>
+			<pack>
+				<bandit_light: 9/> 
+				<bandit_heavy: 1/>		
+			</pack>
+			<pack>
+				<bandit_ranged: 2/> 
+				<bandit_normal: 6/>		
+			</pack>
+		</level>									
+	</group>
+</enemy_groups>

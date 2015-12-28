@@ -1,0 +1,26 @@
+<classes>
+	<warrior>
+		<skill:mage_base_attack/>
+		<skill:hero_fireball/>
+		<skill:hero_fireball/>
+		<skill:hero_fireball/>
+		<skill:hero_fireball/>
+		<sprite_sheet:heroes/>
+	</warrior>
+	<rogue>
+		<skill:mage_base_attack/>
+		<skill:hero_fireball/>
+		<skill:hero_fireball/>
+		<skill:hero_fireball/>
+		<skill:hero_fireball/>
+		<sprite_sheet:heroes/>
+	</rogue>
+	<mage>
+		<skill:mage_base_attack/>
+		<skill:hero_fireball/>
+		<skill:hero_fireball/>
+		<skill:hero_fireball/>
+		<skill:hero_fireball/>
+		<sprite_sheet:heroes/>
+	</mage>
+</classes>

@@ -1,0 +1,12 @@
+<effects>
+	<projectiles>
+		<fireball>
+			<sprite_sheet:fireball/>
+			<sprite_name:fireball/>
+			<impact>
+				<sprite_sheet:explosion/>
+				<sprite_name:explosion/>
+			</impact>
+		</fireball>
+	</projectiles>
+</effects>

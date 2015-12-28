@@ -1,0 +1,10 @@
+<resources>
+	<skills:resources/skills.yth/>
+	<enemies:resources/enemies.yth/>
+	<sprite_sheets:resources/spritesheets.yth/>
+	<enemy_groups:resources/enemygroups.yth/>
+	<encounters:resources/encounters.yth/>
+	<effects:resources/effects.yth/>
+	<classes:resources/classes.yth/>
+	<ui:resources/ui.yth/>
+</resources>

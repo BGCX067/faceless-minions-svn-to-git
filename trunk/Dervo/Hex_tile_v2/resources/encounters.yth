@@ -1,0 +1,1864 @@
+<encounters>
+	<region:ALL>
+	#encounters that may appear in any region
+		<nothing_happens> 
+			<display_name:Nothing happens/>
+			<display_text:The long walk continues. />
+			<possibility:50/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:leave>
+					<display_name:Onwards to the next place/>
+					<resolution_text:Your party continues its journey./>
+				</option>
+			</options>
+		</nothing_happens>
+		<leaping_wizards> 
+			<display_name:Wizards leap out of the bushes!/>
+			<display_text:The long walk continues. />
+			<possibility:1/>
+			<xp_reward:500/>
+			<gold_reward:100/>
+			<options>
+				<option:attack>
+					<display_name:Laugh, then attack/>
+					<resolution_text:Your party charges the wizards!/>
+				</option>
+			</options>
+			<combat>
+				<scenario:hills>
+					<wave>
+						<warrior:3/>
+					</wave>
+				</scenario>
+			</combat>
+		</leaping_wizards>
+		<bandits_1> 
+			<display_name:Some bandits on the road!/>
+			<display_text:Take them out. />
+			<possibility:10/>
+			<xp_reward:300/>
+			<gold_reward:120/>
+			<options>
+				<option:attack>
+					<display_name:Fend them of/>
+					<resolution_text:You gather your strength and leap into the heat!/>
+				</option>
+			</options>
+			<combat>
+				<scenario:hills>
+					<wave>
+						<warrior:4/>
+					</wave>
+				</scenario>
+			</combat>
+		</bandits_1>
+		<bandits_2> 
+			<display_name:Bandits on the road!/>
+			<display_text:Take them out. />
+			<possibility:15/>
+			<xp_reward:250/>
+			<gold_reward:100/>
+			<options>
+				<option:attack>
+					<display_name:Fend them of/>
+					<resolution_text:You gather your strength and leap into the heat!/>
+				</option>
+			</options>
+			<combat>
+				<scenario:hills>
+					<wave>
+						<warrior:3/>
+					</wave>
+				</scenario>
+			</combat>
+		</bandits_2>
+		<bandits_3> 
+			<display_name:Bandits on the road!/>
+			<display_text:Take them out. />
+			<possibility:20/>
+			<xp_reward:200/>
+			<gold_reward:80/>
+			<options>
+				<option:attack>
+					<display_name:Fend them of/>
+					<resolution_text:You gather your strength and leap into the heat!/>
+				</option>
+			</options>
+			<combat>
+				<scenario:hills>
+					<wave>
+						<warrior:2/>
+					</wave>
+				</scenario>
+			</combat>
+		</bandits_3>
+		<bandits_4> 
+			<display_name:A bandit on the road!/>
+			<display_text:Take him out. />
+			<possibility:25/>
+			<xp_reward:150/>
+			<gold_reward:40/>
+			<options>
+				<option:attack>
+					<display_name:Fend him of/>
+					<resolution_text:You gather your strength and leap into the heat!/>
+				</option>
+			</options>
+			<combat>
+				<scenario:hills>
+					<wave>
+						<warrior:1/>
+					</wave>
+				</scenario>
+			</combat>
+		</bandits_4>
+		<new_member_1> 
+			<display_name:A lone traveler hails you and wants to join up. !/>
+			<display_text:Do you accept?. />
+			<possibility:10/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_member_random>
+					<display_name:Accept his compay. />
+					<resolution_text:Width a new member, your number and strength grow. />
+					<required:goldprice>
+						<amount:0/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name: Don't accept/>
+					<resolution_text:No need for a new member this time, you depart./>
+				</option>
+			</options>
+		</new_member_1>
+		<new_member_2> 
+			<display_name:A group of mercenaries hails you on the road./>
+			<display_text:An Ironclad from the group want to join you. Do you accept?. />
+			<possibility:10/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_member_warrior>
+					<display_name:Accept his compay. />
+					<resolution_text:Width the new Ironclad member among you, your number and strength grow. />
+					<required:goldprice>
+						<amount:0/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name: Don't accept/>
+					<resolution_text:No need for a new member this time, you depart./>
+				</option>
+			</options>
+		</new_member_2>
+		<new_member_3> 
+			<display_name:A tradecaravan hails you./>
+			<display_text:An Alchemist from the group want to join you. Do you accept?. />
+			<possibility:10/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_member_mage>
+					<display_name:Accept his compay. />
+					<resolution_text:Width the new Alchemist member among you, your number and strength grow. />
+					<required:goldprice>
+						<amount:0/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name: Don't accept/>
+					<resolution_text:No need for a new member this time, you depart./>
+				</option>
+			</options>
+		</new_member_3>
+		<new_member_4> 
+			<display_name:A hooded traveler hails you./>
+			<display_text:He is a Quicksilver and want to join your group. Do you accept?. />
+			<possibility:10/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_member_rogue>
+					<display_name:Accept his compay. />
+					<resolution_text:Width the new Quicksilver member among you, your number and strength grow. />
+					<required:goldprice>
+						<amount:0/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name: Don't accept/>
+					<resolution_text:No need for a new member this time, you depart./>
+				</option>
+			</options>
+		</new_member_4>
+	</region>
+	<region:none>
+	#will not appear randomly, must be scripted to trigger
+		<test_encounter>
+			<display_name:You have encountered a test encounter!/>
+			<display_text:Some guilse is attacking you, defend yourself/>
+			<possibility:10/>
+			<xp_reward:600/>
+			<gold_reward:100/>
+			<options>
+				<option:attack>
+					<display_name:Chaaaaaaaarge!/>
+					<resolution_text:You do just that./>
+				</option>
+				<option:evade>
+					<display_name:Evade the enemies./>
+					<resolution_text:Through his masterful deception, your Quicksilver diverts the groups attention while you slip away unseen./>
+					<required:quicksilver/>
+				</option>
+			</options>
+			<combat>
+				<scenario:hills>
+					<wave>
+						<warrior:16/>
+					</wave>
+				</scenario>
+				<scenario:cave>
+					<wave>
+						<warrior:2/>
+					</wave>
+					<wave>
+						<warrior:6/>
+					</wave>
+					<wave>
+						<warrior:6/>
+						<mage:6/>
+					</wave>
+				</scenario>
+			</combat>
+		</test_encounter>
+	</region>
+	<region:hostile_battlezone>
+		<hostile_defend_themselves>
+			<display_name:A battle on the field/>
+			<display_text:Help the attacking army to win over a mutual foe./>
+			<possibility:10/>
+			<xp_reward:500/>
+			<gold_reward:100/>
+			<options>
+				<option:attack>
+					<display_name:Charge/>
+					<resolution_text:The party join in />
+				</option>
+				<option:flank>
+					<display_name:Flank them for better chances./>
+					<resolution_text:The quicksilver lead onwards to a better tactical position./>
+					<required:quicksilver/>	
+				</option>
+			</options>
+			<combat>
+				<scenario:battlefield>
+					<wave>
+						<warrior:4/>
+					</wave>
+					<wave>
+						<warrior:5/>
+					</wave>
+					<wave>
+						<warrior:6/>
+					</wave>
+					<wave>
+						<warrior:7/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_defend_themselves>
+		<hostile_big_army>
+			<display_name:Huge armies are marching for a final push./>
+			<display_text:Help the attacking army to win over a mutual foe./>
+			<possibility:3/>
+			<xp_reward:1300/>
+			<gold_reward:400/>
+			<options>
+				<option:attack>
+					<display_name:Charge/>
+					<resolution_text:The party join in />
+				</option>
+				<option:stand_ground>
+					<display_name:Hold the ground for better chances./>
+					<resolution_text:The Ironclad setup a defence before the wall of enemies enter range./>
+					<required:ironclad/>	
+				</option>
+			</options>
+			<combat>
+				<scenario:battlefield>
+					<wave>
+						<warrior:7/>
+					</wave>
+					<wave>
+						<warrior:9/>
+					</wave>
+					<wave>
+						<warrior:11/>
+					</wave>
+					<wave>
+						<warrior:13/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_big_army>
+	</region>
+	<region:neutral_battlezone>
+		<neutral_choose_sides>
+			<display_name:A battle on the field/>
+			<display_text:You have no allegiance to either army, chooce your side carefully./>
+			<possibility:30/>
+			<xp_reward:500/>
+			<gold_reward:100/>
+			<options>
+				<option:support_defending>
+					<display_name:Help the defenders />
+					<resolution_text:After some quick thoughts, the party join up width the defenders. />
+				</option>
+				<option:support_attacking>
+					<display_name:Help the attackers />
+					<resolution_text:After some quick thoughts, the party join up width the attackers. />
+				</option>
+			</options>
+			<combat>
+				<scenario:battlefield>
+					<wave>
+						<warrior:7/>
+					</wave>
+					<wave>
+						<warrior:8/>
+					</wave>
+					<wave>
+						<warrior:4/>
+					</wave>
+				</scenario>
+			</combat>
+		</neutral_choose_sides>
+		<neutral_caught_inbetween>
+			<display_name:You are caught in between two attacking armies./>
+			<display_text:There is no time to choose sides, hold your ground and survive./>
+			<possibility:5/>
+			<xp_reward:1500/>
+			<gold_reward:100/>
+			<options>
+				<option:attack>
+					<display_name:Prepeare for battle  />
+					<resolution_text:Arms is pepeared, shields are drawn. We hope to survive. />
+				</option>
+			</options>
+			<combat>
+				<scenario:battlefield>
+					<wave>
+						<warrior:7/>
+					</wave>
+					<wave>
+						<warrior:8/>
+					</wave>
+					<wave>
+						<warrior:8/>
+					</wave>
+					<wave>
+						<warrior:8/>
+					</wave>
+				</scenario>
+				<scenario:battlefield>
+					<wave>
+						<warrior:7/>
+					</wave>
+					<wave>
+						<warrior:8/>
+					</wave>
+					<wave>
+						<warrior:8/>
+					</wave>
+				</scenario>
+			</combat>
+		</neutral_caught_inbetween>
+	</region>
+	<region:friendly_battlezone>
+		<friendly_defend_themselves>
+			<display_name:A battle on the field/>
+			<display_text:Help the defending army to win over a mutual foe./>
+			<possibility:30/>
+			<xp_reward:500/>
+			<gold_reward:100/>
+			<options>
+				<option:attack>
+					<display_name:Charge/>
+					<resolution_text:The party join in />
+				</option>
+				<option:flank>
+					<display_name:Flank them for better chances./>
+					<resolution_text:The quicksilver lead onwards to a better tactical position./>
+					<required:quicksilver/>	
+				</option>
+			</options>
+			<combat>
+				<scenario:battlefield>
+					<wave>
+						<warrior:4/>
+					</wave>
+					<wave>
+						<warrior:5/>
+					</wave>
+					<wave>
+						<warrior:6/>
+					</wave>
+					<wave>
+						<warrior:7/>
+					</wave>
+				</scenario>
+			</combat>
+		</friendly_defend_themselves>
+		<friendly_big_army>
+			<display_name:Huge armies are marching for a final push./>
+			<display_text:Help the defending army to hold this land./>
+			<possibility:3/>
+			<xp_reward:1300/>
+			<gold_reward:400/>
+			<options>
+				<option:attack>
+					<display_name:Charge/>
+					<resolution_text:The party join in />
+				</option>
+				<option:stand_ground>
+					<display_name:Hold the ground for better chances./>
+					<resolution_text:The Ironclad setup a defence before the wall of enemies enter range./>
+					<required:ironclad/>	
+				</option>
+			</options>
+			<combat>
+				<scenario:battlefield>
+					<wave>
+						<warrior:7/>
+					</wave>
+					<wave>
+						<warrior:9/>
+					</wave>
+					<wave>
+						<warrior:11/>
+					</wave>
+					<wave>
+						<warrior:13/>
+					</wave>
+				</scenario>
+			</combat>
+		</friendly_big_army>
+	</region>
+	<region:hostile_tavern>
+		<unfirendly_tavern>
+			<display_name:Entering the tavern./>
+			<display_text:Many of the people sitting around in the main room seem to recognice you, not for the better. But you are left unharmed, for now. />
+			<possibility:40/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_healing>
+					<display_name:Pay for rooms and tend to the wounds/>
+					<resolution_text:Even though you are not welcome around here, customers are stil customers, but the price is different. />
+					<required:goldprice>
+						<amount:100/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name: Leave the tavern/>
+					<resolution_text:Staying here was never a good idea, leaving as soon as possible was. />
+				</option>
+			</options>
+		</unfirendly_tavern>
+	</region>
+	<region:neutral_tavern>
+		<indifferent_tavern>
+			<display_name:Entering the tavern./>
+			<display_text:Greeted by the inkeeper, and few other interesting people here/>
+			<possibility:25/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_healing>
+					<display_name:Pay for rooms and tend to the wounds/>
+					<resolution_text:It was a good idea to rent rooms for the night, a good price. />
+					<required:goldprice>
+						<amount:25/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name: Leave the tavern/>
+					<resolution_text:Lots of new places to explore, no need to rest when not needed./>
+				</option>
+			</options>
+		</indifferent_tavern>
+		<indifferent_tavern_2>
+			<display_name:Entering the tavern./>
+			<display_text:Greeted by the inkeeper, and some interested faces looking at the party./>
+			<possibility:15/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_healing>
+					<display_name:Pay for rooms and tend to the wounds/>
+					<resolution_text:It was a good idea to rent rooms for the night, a good price. />
+					<required:goldprice>
+						<amount:25/>
+					</required>
+				</option>
+				<option:pay_member_random>
+					<display_name:Another merc is at the tavern, he may join if the price is good./>
+					<resolution_text:A new member is joining the party. />
+					<required:goldprice>
+						<amount:75/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name: Leave the tavern/>
+					<resolution_text:Lots of new places to explore, no need to rest when not needed./>
+				</option>
+			</options>
+		</indifferent_tavern_2>
+		<indifferent_tavern_3>
+			<display_name:Entering the tavern./>
+			<display_text:Greeted by the inkeeper, and some interested faces looking at the party./>
+			<possibility:2/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_healing>
+					<display_name:Pay for rooms and tend to the wounds/>
+					<resolution_text:It was a good idea to rent rooms for the night, a good price. />
+					<required:goldprice>
+						<amount:25/>
+					</required>
+				</option>
+				<option:pay_member_random>
+					<display_name:One of the locals want to join/>
+					<resolution_text:The local was accepted into the ranks, tending to sheep became to boring./>
+				</option>
+				<option:leave>
+					<display_name: Leave the tavern/>
+					<resolution_text:Lots of new places to explore, no need to rest when not needed./>
+				</option>
+			</options>
+		</indifferent_tavern_3>
+	</region>
+	<region:friendly_tavern>
+		<friendly_tavern>
+			<display_name:Entering the tavern./>
+			<display_text:Greeted by the inkeeper, and hailed as heroes by the others./>
+			<possibility:35/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_healing>
+					<display_name:Free rooms for the heroes. />
+					<resolution_text:Some good rest and some healing will do good.  />
+					<required:goldprice>
+						<amount:0/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name: Leave the tavern/>
+					<resolution_text:Lots of new places to explore, no need to rest when not needed./>
+				</option>
+			</options>
+		</friendly_tavern>
+		<friendly_tavern_2>
+			<display_name:Entering the tavern./>
+			<display_text:Greeted by the inkeeper, and some interested faces looking at the party./>
+			<possibility:25/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_healing>
+					<display_name:Free rooms for the heroes. />
+					<resolution_text:Some good rest and some healing will do good.  />
+					<required:goldprice>
+						<amount:0/>
+					</required>
+				</option>
+				<option:pay_member_random>
+					<display_name:Another merc is at the tavern, he may join if the price is good./>
+					<resolution_text:A new member is joining the party. />
+					<required:goldprice>
+						<amount:45/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name: Leave the tavern/>
+					<resolution_text:Lots of new places to explore, no need to rest when not needed./>
+				</option>
+			</options>
+		</friendly_tavern_2>
+		<friendly_tavern_3>
+			<display_name:Entering the tavern./>
+			<display_text:Greeted by the inkeeper, and some interested faces looking at the party./>
+			<possibility:5/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_healing>
+					<display_name:Free rooms for the heroes. />
+					<resolution_text:Some good rest and some healing will do good.  />
+					<required:goldprice>
+						<amount:0/>
+					</required>
+				</option>
+				<option:pay_member_random>
+					<display_name:One of the locals want to join/>
+					<resolution_text:The local was accepted into the ranks, tending to sheep became to boring./>
+				</option>
+				<option:leave>
+					<display_name: Leave the tavern/>
+					<resolution_text:Lots of new places to explore, no need to rest when not needed./>
+				</option>
+			</options>
+		</friendly_tavern_3>
+	</region>
+	<region:hostile_city>
+				<unfirendly_city>
+			<display_name:At the city gates./>
+			<display_text:As you enter, the few guards are caught off guard, they try to gather in an attack./>
+			<possibility:15/>
+			<xp_reward:500/>
+			<gold_reward:300/>
+			<options>
+				<option:attack>
+					<display_name:Attack them/>
+					<resolution_text:The party charges the closest pack of guards, more will come./>
+				</option>
+				<option:leave>
+					<display_name: Leave the city/>
+					<resolution_text:while there still was time, the party left width a hurry. />
+				</option>
+			</options>
+			<combat>
+				<scenario:city>
+					<wave>
+						<warrior:3/>
+					</wave>
+					<wave>
+						<warrior:4/>
+					</wave>
+					<wave>
+						<warrior:5/>
+					</wave>
+					<wave>
+						<warrior:6/>
+					</wave>
+				</scenario>
+			</combat>
+		</unfirendly_city>
+		<unfirendly_city_2>
+			<display_name:Clocktowers of the city sound an alarm./>
+			<display_text:An army leaves the citygates and hustle towards the party./>
+			<possibility:35/>
+			<xp_reward:500/>
+			<gold_reward:300/>
+			<options>
+				<option:attack>
+					<display_name:Attack the army/>
+					<resolution_text:Holding the ground was not be the best idea, but neither was attacking the party./>
+				</option>
+				<option:leave>
+					<display_name: Leave/>
+					<resolution_text:Staying here was never a good idea, leaving as soon as possible was. />
+				</option>
+				<option:evade>
+					<display_name:Evade the army, attack the unprotected city./>
+					<resolution_text:Through his masterful deception, your party lead by the Quicksilver moves around the army and to an allmost unprotected city./>
+					<required:quicksilver/>
+				</option>
+				<option:stand_ground>
+					<display_name:Charge them./>
+					<resolution_text:Width your Ironclas in front, you charge towards the incomming army taking away their advantage./>
+					<required:ironclad/>
+				</option>
+			</options>
+			<combat>
+				<scenario:hills>
+					<wave>
+						<warrior:5/>
+					</wave>
+					<wave>
+						<warrior:8/>
+					</wave>
+					<wave>
+						<warrior:10/>
+					</wave>
+				</scenario>
+			</combat>
+		</unfirendly_city_2>
+	</region>
+	<region:neutral_city>
+		<indifferent_city>
+			<display_name:Another city in the  horizon./>
+			<display_text:As you rest eyes uppon the city, some desisions must be made. />
+			<possibility:25/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_healing>
+					<display_name:Go to a tavern and sleep over for the night. />
+					<resolution_text:It was a good idea to rent rooms for the night, a good price. />
+					<required:goldprice>
+						<amount:30/>
+					</required>
+				</option>
+				<option:pay_item>
+					<display_name:Look for better equipment. />
+					<resolution_text:Thoug expencive, the new equipment should help in combat. />
+					<required:goldprice>
+						<amount:70/>
+					</required>
+				</option>
+				<option:pay_member_random>
+					<display_name:Look for new party member. />
+					<resolution_text:A new member joined ranks. />
+					<required:goldprice>
+						<amount:60/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name: Leave the city/>
+					<resolution_text:Lots of new places to explore, no need to walk in streets./>
+				</option>
+			</options>
+		</indifferent_city>
+	</region>
+	<region:friendly_city>
+		<friendly_city>
+			<display_name:A new city./>
+			<display_text:Greeted as heroes, you enter the gate./>
+			<possibility:35/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_healing>
+					<display_name:Free rooms at the inn for the heroes. />
+					<resolution_text:Some good rest and some healing will do good.  />
+					<required:goldprice>
+						<amount:0/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name: Leave the city/>
+					<resolution_text:Lots of new places to explore, no need to walk in streets today./>
+				</option>
+			</options>
+		</friendly_city>
+		<friendly_city_2>
+			<display_name:Entering the city./>
+			<display_text:Greeted as heroes./>
+			<possibility:15/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_healing>
+					<display_name:Free rooms at the inn for the heroes. />
+					<resolution_text:Some good rest and some healing will do good./>
+					<required:goldprice>
+						<amount:0/>
+					</required>
+				</option>
+				<option:pay_member_random>
+					<display_name:Accept a new member from the cityguard. />
+					<resolution_text:One of the members of the cityguard have joined forces with you./>
+					<required:goldprice>
+						<amount:0/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name: Leave the city/>
+					<resolution_text:Lots of new places to explore, no need to walk in streets today./>
+				</option>
+			</options>
+		</friendly_city_2>
+	</region>
+		<region:dungeon>
+		<dungeon_1>
+			<display_name:A dungeon is near, what do?./>
+			<display_text:You find a rift in the ground, leading to a dungeon down under./>
+			<possibility:35/>
+			<xp_reward:500/>
+			<gold_reward:500/>
+			<options>
+				<option:attack>
+					<display_name:Go down under/>
+					<resolution_text:The party go trough the entrance and continues. Short after bad company is found./>
+				</option>
+				<option:leave>
+					<display_name: Do not enter/>
+					<resolution_text:With no wishes to enter, the party left. />
+				</option>
+			</options>
+			<combat>
+				<scenario:cave>
+					<wave>
+						<warrior:2/>
+					</wave>
+					<wave>
+						<warrior:5/>
+					</wave>
+				</scenario>
+			</combat>
+		</dungeon_1>
+		<dungeon_2>
+			<display_name:A dungeon is near, what do?./>
+			<display_text:You find a rift in the ground, leading to a dungeon down under./>
+			<possibility:35/>
+			<xp_reward:500/>
+			<gold_reward:500/>
+			<options>
+				<option:attack>
+					<display_name:Go down under/>
+					<resolution_text:The party go trough the entrance and continues. Short after bad company is found./>
+				</option>
+				<option:leave>
+					<display_name: Do not enter/>
+					<resolution_text:With no wishes to enter, the party left. />
+				</option>
+			</options>
+			<combat>
+				<scenario:cave>
+					<wave>
+						<warrior:4/>
+					</wave>
+					<wave>
+						<warrior:4/>
+					</wave>
+				</scenario>
+			</combat>
+		</dungeon_2>
+	</region>
+	<region:ruin>
+		<ruin_1>
+			<display_name:An old ruin is near, what do?./>
+			<display_text:A once marvelous tower is now in ruins, tough damaged, people width no good intentions lies in ambush./>
+			<possibility:35/>
+			<xp_reward:500/>
+			<gold_reward:500/>
+			<options>
+				<option:attack>
+					<display_name:Fight them!/>
+					<resolution_text:As one force, you move towards the hostile people in the old ruins./>
+				</option>
+				<option:leave>
+					<display_name:Avoid conflict/>
+					<resolution_text:With no wishes to enter, the party leave. />
+				</option>
+			</options>
+			<combat>
+				<scenario:ruin>
+					<wave>
+						<warrior:5/>
+					</wave>
+				</scenario>
+			</combat>
+		</ruin_1>
+		<ruin_2>
+			<display_name:An old ruin is near, what do?./>
+			<display_text:A once marvelous tower is now in ruins, tough damaged, people width no good intentions lies in ambush./>
+			<possibility:5/>
+			<xp_reward:600/>
+			<gold_reward:700/>
+			<options>
+				<option:attack>
+					<display_name:Fight them!/>
+					<resolution_text:As one force, you move towards the hostile people in the old ruins./>
+				</option>
+				<option:pay_member_random>
+					<display_name:Alchemist intimidate!/>
+					<resolution_text:As the Alchemist displays an array of effects in bot sky and ground, the bandits are fleeing. In the now empty bandit camp a captive is set free and wants to join./>
+					<required:alchemist/>
+				</option>
+				<option:leave>
+					<display_name:Avoid conflict/>
+					<resolution_text:With no wishes to enter, the party leave. />
+				</option>
+			</options>
+			<combat>
+				<scenario:ruin>
+					<wave>
+						<warrior:5/>
+					</wave>
+				</scenario>
+			</combat>
+		</ruin_2>
+	</region>
+	<region:caravan>
+		<caravan_1>
+			<display_name:A caravan of traders approach./>
+			<display_text:As they come closer you begin discussion of what price on possible items to buy./>
+			<possibility:35/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_healing>
+					<display_name:Pay for potions of healing!/>
+					<resolution_text:Wierd in taste, but it did the job./>
+				</option>
+				<option:pay_member_random>
+					<display_name:Reqruit new member. />
+					<resolution_text:The new member joins. />
+					<required:goldprice>
+						<amount:75/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name:Buy nothing./>
+					<resolution_text:Width nothing interesting to buy, you depart width the caravan. />
+				</option>
+			</options>
+		</caravan_1>
+	</region>
+	<region:hostile_lake>
+		<hostile_lake_1>
+			<display_name:Some soldiers of a enemy nation is aproach./>
+			<display_text:A group of hostile soldiers aproach after spotting you./>
+			<possibility:20/>
+			<xp_reward:200/>
+			<gold_reward:50/>
+			<options>
+				<option:attack>
+					<display_name:Fight them./>
+					<resolution_text:Width no time to prepeare the two groups enters combat. />
+				</option>
+			</options>
+			<combat>
+				<scenario:lake>
+					<wave>
+						<warrior:5/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_lake_1>
+		<hostile_lake_2>
+			<display_name:Some soldiers of a enemy nation is aproach./>
+			<display_text:A big group of hostile soldiers aproach after spotting you./>
+			<possibility:15/>
+			<xp_reward:400/>
+			<gold_reward:120/>
+			<options>
+				<option:attack>
+					<display_name:Fight them./>
+					<resolution_text:Width no time to prepeare the two groups enters combat. />
+				</option>
+			</options>
+			<combat>
+				<scenario:lake>
+					<wave>
+						<warrior:10/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_lake_2>
+		<hostile_lake_3>
+			<display_name:An enemy bataljon is aproach./>
+			<display_text:A big group of hostile soldiers aproach after spotting you./>
+			<possibility:8/>
+			<xp_reward:700/>
+			<gold_reward:20/>
+			<options>
+				<option:attack>
+					<display_name:Fight them./>
+					<resolution_text:Width no time to prepeare the two groups enters combat. />
+				</option>
+			</options>
+			<combat>
+				<scenario:lake>
+					<wave>
+						<warrior:7/>
+					</wave>
+					<wave>
+						<warrior:6/>
+					</wave>
+					<wave>
+						<warrior:5/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_lake_3>
+	</region>
+	<region:neutral_lake>
+		<neutral_lake_1>
+			<display_name:A group of soldiers is marching./>
+			<display_text:They seem to have no interest in you./>
+			<possibility:20/>
+			<xp_reward:400/>
+			<gold_reward:0/>
+			<options>
+				<option:leave>
+					<display_name:Continue widthout interest./>
+					<resolution_text:Width no interest in eachothers, you leave. />
+				</option>
+				<option:attack>
+					<display_name:Attack them./>
+					<resolution_text:Widthout warning you charge the group of suprised soldiers.. />
+				</option>
+			</options>
+			<combat>
+				<scenario:lake>
+					<wave>
+						<warrior:5/>
+					</wave>
+				</scenario>
+			</combat>
+		</neutral_lake_1>
+	</region>
+	<region:friendly_lake>
+		<friendly_lake_1>
+			<display_name:A group of soldiers is marching./>
+			<display_text:They salute you as they walk past./>
+			<possibility:20/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:leave>
+					<display_name:Salute back and leave./>
+					<resolution_text:As you depart, everyone seem to have a better morale. />
+				</option>
+			</options>
+		</friendly_lake_1>
+	</region>
+		<region:hostile_grass>
+		<hostile_grass_1>
+			<display_name:Some soldiers of a enemy nation is aproach./>
+			<display_text:A group of hostile soldiers aproach after spotting you./>
+			<possibility:25/>
+			<xp_reward:200/>
+			<gold_reward:50/>
+			<options>
+				<option:attack>
+					<display_name:Fight them./>
+					<resolution_text:Width no time to prepeare the two groups enters combat. />
+				</option>
+			</options>
+			<combat>
+				<scenario:hills>
+					<wave>
+						<warrior:5/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_grass_1>
+		<hostile_grass_2>
+			<display_name:Some soldiers of a enemy nation is aproach./>
+			<display_text:A big group of hostile soldiers aproach after spotting you./>
+			<possibility:15/>
+			<xp_reward:400/>
+			<gold_reward:120/>
+			<options>
+				<option:attack>
+					<display_name:Fight them./>
+					<resolution_text:Width no time to prepeare the two groups enters combat. />
+				</option>
+			</options>
+			<combat>
+				<scenario:hills>
+					<wave>
+						<warrior:10/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_grass_2>
+		<hostile_grass_3>
+			<display_name:An enemy bataljon is aproach./>
+			<display_text:A big group of hostile soldiers aproach after spotting you./>
+			<possibility:8/>
+			<xp_reward:700/>
+			<gold_reward:20/>
+			<options>
+				<option:attack>
+					<display_name:Fight them./>
+					<resolution_text:Width no time to prepeare the two groups enters combat. />
+				</option>
+			</options>
+			<combat>
+				<scenario:hills>
+					<wave>
+						<warrior:7/>
+					</wave>
+					<wave>
+						<warrior:6/>
+					</wave>
+					<wave>
+						<warrior:5/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_grass_3>
+	</region>
+	<region:neutral_grass>
+		<neutral_grass_1>
+			<display_name:A group of soldiers is marching./>
+			<display_text:They seem to have no interest in you./>
+			<possibility:20/>
+			<xp_reward:400/>
+			<gold_reward:0/>
+			<options>
+				<option:leave>
+					<display_name:Continue widthout interest./>
+					<resolution_text:Width no interest in eachothers, you leave. />
+				</option>
+				<option:attack>
+					<display_name:Attack them./>
+					<resolution_text:Widthout warning you charge the group of suprised soldiers.. />
+				</option>
+			</options>
+			<combat>
+				<scenario:hills>
+					<wave>
+						<warrior:5/>
+					</wave>
+				</scenario>
+			</combat>
+		</neutral_grass_1>
+	</region>
+	<region:friendly_grass>
+		<friendly_grass_1>
+			<display_name:A group of soldiers is marching./>
+			<display_text:They salute you as they walk past./>
+			<possibility:20/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:leave>
+					<display_name:Salute back and leave./>
+					<resolution_text:As you depart, everyone seem to have a better morale. />
+				</option>
+			</options>
+		</friendly_grass_1>
+	</region>
+	<region:hostile_hills>
+		<hostile_hills_1>
+			<display_name:Some soldiers of a enemy nation is aproach./>
+			<display_text:A group of hostile soldiers aproach after spotting you./>
+			<possibility:25/>
+			<xp_reward:200/>
+			<gold_reward:50/>
+			<options>
+				<option:attack>
+					<display_name:Fight them./>
+					<resolution_text:Width no time to prepeare the two groups enters combat. />
+				</option>
+			</options>
+			<combat>
+				<scenario:hills>
+					<wave>
+						<warrior:5/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_hills_1>
+		<hostile_hills_2>
+			<display_name:Some soldiers of a enemy nation is aproach./>
+			<display_text:A big group of hostile soldiers aproach after spotting you./>
+			<possibility:15/>
+			<xp_reward:400/>
+			<gold_reward:120/>
+			<options>
+				<option:attack>
+					<display_name:Fight them./>
+					<resolution_text:Width no time to prepeare the two groups enters combat. />
+				</option>
+			</options>
+			<combat>
+				<scenario:hills>
+					<wave>
+						<warrior:10/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_hills_2>
+		<hostile_hills_3>
+			<display_name:An enemy bataljon is aproach./>
+			<display_text:A big group of hostile soldiers aproach after spotting you./>
+			<possibility:8/>
+			<xp_reward:700/>
+			<gold_reward:20/>
+			<options>
+				<option:attack>
+					<display_name:Fight them./>
+					<resolution_text:Width no time to prepeare the two groups enters combat. />
+				</option>
+			</options>
+			<combat>
+				<scenario:hills>
+					<wave>
+						<warrior:7/>
+					</wave>
+					<wave>
+						<warrior:6/>
+					</wave>
+					<wave>
+						<warrior:5/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_hills_3>
+	</region>
+	<region:neutral_hills>
+		<neutral_hills_1>
+			<display_name:A group of soldiers is marching./>
+			<display_text:They seem to have no interest in you./>
+			<possibility:20/>
+			<xp_reward:400/>
+			<gold_reward:0/>
+			<options>
+				<option:leave>
+					<display_name:Continue widthout interest./>
+					<resolution_text:Width no interest in eachothers, you leave. />
+				</option>
+				<option:attack>
+					<display_name:Attack them./>
+					<resolution_text:Widthout warning you charge the group of suprised soldiers.. />
+				</option>
+			</options>
+			<combat>
+				<scenario:hills>
+					<wave>
+						<warrior:5/>
+					</wave>
+				</scenario>
+			</combat>
+		</neutral_hills_1>
+	</region>
+	<region:friendly_hills>
+		<friendly_hills_1>
+			<display_name:A group of soldiers is marching./>
+			<display_text:They salute you as they walk past./>
+			<possibility:20/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:leave>
+					<display_name:Salute back and leave./>
+					<resolution_text:As you depart, everyone seem to have a better morale. />
+				</option>
+			</options>
+		</friendly_hills_1>
+	</region>
+	<region:hostile_forrest>
+		<hostile_forrest_1>
+			<display_name:Some soldiers of a enemy nation is aproach./>
+			<display_text:A group of hostile soldiers aproach after spotting you./>
+			<possibility:25/>
+			<xp_reward:200/>
+			<gold_reward:50/>
+			<options>
+				<option:attack>
+					<display_name:Fight them./>
+					<resolution_text:Width no time to prepeare the two groups enters combat. />
+				</option>
+			</options>
+			<combat>
+				<scenario:forrest>
+					<wave>
+						<warrior:5/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_forrest_1>
+		<hostile_forrest_2>
+			<display_name:Some soldiers of a enemy nation is aproach./>
+			<display_text:A big group of hostile soldiers aproach after spotting you./>
+			<possibility:15/>
+			<xp_reward:400/>
+			<gold_reward:120/>
+			<options>
+				<option:attack>
+					<display_name:Fight them./>
+					<resolution_text:Width no time to prepeare the two groups enters combat. />
+				</option>
+			</options>
+			<combat>
+				<scenario:forrest>
+					<wave>
+						<warrior:10/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_forrest_2>
+		<hostile_forrest_3>
+			<display_name:An enemy bataljon is aproach./>
+			<display_text:A big group of hostile soldiers aproach after spotting you./>
+			<possibility:8/>
+			<xp_reward:700/>
+			<gold_reward:20/>
+			<options>
+				<option:attack>
+					<display_name:Fight them./>
+					<resolution_text:Width no time to prepeare the two groups enters combat. />
+				</option>
+			</options>
+			<combat>
+				<scenario:forrest>
+					<wave>
+						<warrior:7/>
+					</wave>
+					<wave>
+						<warrior:6/>
+					</wave>
+					<wave>
+						<warrior:5/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_forrest_3>
+	</region>
+	<region:neutral_forrest>
+		<neutral_forrest_1>
+			<display_name:A group of soldiers is marching./>
+			<display_text:They seem to have no interest in you./>
+			<possibility:20/>
+			<xp_reward:400/>
+			<gold_reward:0/>
+			<options>
+				<option:leave>
+					<display_name:Continue widthout interest./>
+					<resolution_text:Width no interest in eachothers, you leave. />
+				</option>
+				<option:attack>
+					<display_name:Attack them./>
+					<resolution_text:Widthout warning you charge the group of suprised soldiers.. />
+				</option>
+			</options>
+			<combat>
+				<scenario:forrest>
+					<wave>
+						<warrior:5/>
+					</wave>
+				</scenario>
+			</combat>
+		</neutral_forrest_1>
+	</region>
+	<region:friendly_forrest>
+		<friendly_forrest_1>
+			<display_name:A group of soldiers is marching./>
+			<display_text:They salute you as they walk past./>
+			<possibility:20/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:leave>
+					<display_name:Salute back and leave./>
+					<resolution_text:As you depart, everyone seem to have a better morale. />
+				</option>
+			</options>
+		</friendly_forrest_1>
+	</region>
+	<region:hostile_mountain>
+		<hostile_mountain_1>
+			<display_name:Some soldiers of a enemy nation is aproach./>
+			<display_text:A group of hostile soldiers aproach after spotting you./>
+			<possibility:25/>
+			<xp_reward:200/>
+			<gold_reward:50/>
+			<options>
+				<option:attack>
+					<display_name:Fight them./>
+					<resolution_text:Width no time to prepeare the two groups enters combat. />
+				</option>
+			</options>
+			<combat>
+				<scenario:mountain>
+					<wave>
+						<warrior:5/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_mountain_1>
+		<hostile_mountain_2>
+			<display_name:Some soldiers of a enemy nation is aproach./>
+			<display_text:A big group of hostile soldiers aproach after spotting you./>
+			<possibility:15/>
+			<xp_reward:400/>
+			<gold_reward:120/>
+			<options>
+				<option:attack>
+					<display_name:Fight them./>
+					<resolution_text:Width no time to prepeare the two groups enters combat. />
+				</option>
+			</options>
+			<combat>
+				<scenario:mountain>
+					<wave>
+						<warrior:10/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_mountain_2>
+		<hostile_mountain_3>
+			<display_name:An enemy bataljon is aproach./>
+			<display_text:A big group of hostile soldiers aproach after spotting you./>
+			<possibility:8/>
+			<xp_reward:700/>
+			<gold_reward:20/>
+			<options>
+				<option:attack>
+					<display_name:Fight them./>
+					<resolution_text:Width no time to prepeare the two groups enters combat. />
+				</option>
+			</options>
+			<combat>
+				<scenario:mountain>
+					<wave>
+						<warrior:7/>
+					</wave>
+					<wave>
+						<warrior:6/>
+					</wave>
+					<wave>
+						<warrior:5/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_mountain_3>
+	</region>
+	<region:neutral_mountain>
+		<neutral_mountain_1>
+			<display_name:A group of soldiers is marching./>
+			<display_text:They seem to have no interest in you./>
+			<possibility:20/>
+			<xp_reward:400/>
+			<gold_reward:0/>
+			<options>
+				<option:leave>
+					<display_name:Continue widthout interest./>
+					<resolution_text:Width no interest in eachothers, you leave. />
+				</option>
+				<option:attack>
+					<display_name:Attack them./>
+					<resolution_text:Widthout warning you charge the group of suprised soldiers.. />
+				</option>
+			</options>
+			<combat>
+				<scenario:mountain>
+					<wave>
+						<warrior:5/>
+					</wave>
+				</scenario>
+			</combat>
+		</neutral_mountain_1>
+	</region>
+	<region:friendly_mountain>
+		<friendly_mountain_1>
+			<display_name:A group of soldiers is marching./>
+			<display_text:They salute you as they walk past./>
+			<possibility:20/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:leave>
+					<display_name:Salute back and leave./>
+					<resolution_text:As you depart, everyone seem to have a better morale. />
+				</option>
+			</options>
+		</friendly_mountain_1>
+	</region>
+	<region:hostile_captial>
+		<hostile_captial_1>
+			<display_name:At the gates of the enemy./>
+			<display_text:After a road of blodshed, you have reached your goal, the capital city of your enemy./>
+			<possibility:25/>
+			<xp_reward:4000/>
+			<gold_reward:500/>
+			<options>
+				<option:attack>
+					<display_name:Lay siege./>
+					<resolution_text:A charging army sets course for you. />
+				</option>
+			</options>
+			<combat>
+				<scenario:battlefield>
+					<wave>
+						<warrior:10/>
+					</wave>
+					<wave>
+						<warrior:10/>
+					</wave>
+					<wave>
+						<warrior:10/>
+					</wave>
+				</scenario>
+				<scenario:city>
+					<wave>
+						<warrior:8/>
+					</wave>
+					<wave>
+						<warrior:7/>
+					</wave>
+					<wave>
+						<warrior:6/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_captial_1>
+	</region>
+	<region:neutral_capital>
+		<indifferent_capital_1>
+			<display_name:A capitalcity in the  horizon./>
+			<display_text:As you rest eyes uppon the great city, some desisions must be made. />
+			<possibility:25/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_healing>
+					<display_name:Go to a tavern and sleep over for the night. />
+					<resolution_text:It was a good idea to rent rooms for the night, a good price. />
+					<required:goldprice>
+						<amount:30/>
+					</required>
+				</option>
+				<option:pay_member_random>
+					<display_name:Look for new party member. />
+					<resolution_text:A new member joined ranks. />
+					<required:goldprice>
+						<amount:60/>
+					</required>
+				</option>
+				<option:pay_item>
+					<display_name:Look for better equipment. />
+					<resolution_text:Thoug expencive, the new equipment should help in combat. />
+					<required:goldprice>
+						<amount:70/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name: Leave the city/>
+					<resolution_text:Lots of new places to explore, no need to walk in streets./>
+				</option>
+			</options>
+		</indifferent_capital_1>
+	</region>
+	<region:friendly_capital>
+		<friendly_capital_1>
+			<display_name:A capitalcity in the  horizon./>
+			<display_text:Greeted as heroes you go trough huge gates and into the capital city. />
+			<possibility:25/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_healing>
+					<display_name:Free rooms at the inn for the heroes. />
+					<resolution_text:Some good rest and some healing will do good./>
+					<required:goldprice>
+						<amount:0/>
+					</required>
+				</option>
+				<option:pay_member_random>
+					<display_name:Accept a new member from the cityguard. />
+					<resolution_text:One of the members of the cityguard have joined forces with you./>
+					<required:goldprice>
+						<amount:0/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name: Leave the city/>
+					<resolution_text:Lots of new places to explore, no need to walk in streets today./>
+				</option>
+			</options>
+		</friendly_capital_1>
+	</region>
+	<region:hostile_castle>
+		<hostile_castle_1>
+			<display_name:At the gates of the enemy./>
+			<display_text:An enemy castle is in fromt of you, uppon your arrival the gate was closed and an army stands outside it./>
+			<possibility:25/>
+			<xp_reward:1500/>
+			<gold_reward:300/>
+			<options>
+				<option:attack>
+					<display_name:Lay siege./>
+					<resolution_text:A charging army sets course for you. />
+				</option>
+				<option:leave>
+					<display_name:Back off./>
+					<resolution_text:Slowly leaving, and no intentions of attacking. />
+				</option>				
+			</options>
+			<combat>
+				<scenario:battlefield>
+					<wave>
+						<warrior:12/>
+					</wave>
+					<wave>
+						<warrior:10/>
+					</wave>
+					<wave>
+						<warrior:8/>
+					</wave>
+					<wave>
+						<warrior:6/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_castle_1>
+	</region>
+	<region:neutral_castle>
+		<indifferent_castle_1>
+			<display_name:A castle in the  horizon./>
+			<display_text:They hail you but wont let you in since you are not of their fraction. />
+			<possibility:25/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:leave>
+					<display_name: Leave the castle/>
+					<resolution_text:Lots of new places to explore, no need to stand outside a closed gate./>
+				</option>
+			</options>
+		</indifferent_castle_1>
+	</region>
+	<region:friendly_castle>
+		<friendly_castle_1>
+			<display_name:A castle in the  horizon./>
+			<display_text:Greeted as heroes you go trough the gates and into the inner city. />
+			<possibility:25/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_healing>
+					<display_name:Free rooms in the barracks for the heroes. />
+					<resolution_text:Some good rest and some healing will do good./>
+					<required:goldprice>
+						<amount:0/>
+					</required>
+				</option>
+				<option:pay_member_random>
+					<display_name:Accept a new member from the guard. />
+					<resolution_text:One of the members of the guard have joined forces with you./>
+					<required:goldprice>
+						<amount:0/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name: Leave the castle/>
+					<resolution_text:Lots of new places to explore, no need to be here anny longer./>
+				</option>
+			</options>
+		</friendly_castle_1>
+	</region>
+	<region:hostile_tower>
+		<hostile_tower_1>
+			<display_name:At the gates of the enemy./>
+			<display_text:A pilar of stone marks a watch tower an a camp for soldiers, they are not aware of you, yet./>
+			<possibility:25/>
+			<xp_reward:1000/>
+			<gold_reward:250/>
+			<options>
+				<option:attack>
+					<display_name:Attack the tower./>
+					<resolution_text:Before they are able to setup in full strength, you charge in. />
+				</option>
+				<option:leave>
+					<display_name:walk around./>
+					<resolution_text:Slowly leaving, and no intentions of attacking. />
+				</option>				
+			</options>
+			<combat>
+				<scenario:battlefield>
+					<wave>
+						<warrior:4/>
+					</wave>
+					<wave>
+						<warrior:6/>
+					</wave>
+					<wave>
+						<warrior:8/>
+					</wave>
+					<wave>
+						<warrior:6/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_tower_1>
+	</region>
+	<region:neutral_tower>
+		<indifferent_tower>
+			<display_name:A watchtower in the  horizon./>
+			<display_text:They hail you but wont let you in since you are not of their fraction. />
+			<possibility:25/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:leave>
+					<display_name: Leave, and continue the travel/>
+					<resolution_text:Lots of new places to explore, no need to stand outside a closed gate./>
+				</option>
+			</options>
+		</indifferent_tower>
+	</region>
+	<region:friendly_tower>
+		<friendly_tower_1>
+			<display_name:A tower in the  horizon./>
+			<display_text:Greeted as heroes you enter the camp besides the tower. />
+			<possibility:25/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_healing>
+					<display_name:Free healing from the stationed medic. />
+					<resolution_text:Some good rest and some healing will do good./>
+					<required:goldprice>
+						<amount:0/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name: Leave the camp/>
+					<resolution_text:Lots of new places to explore, no need to be here anny longer./>
+				</option>
+			</options>
+		</friendly_tower_1>
+	</region>
+	<region:hostile_fortress>
+		<hostile_fortress_1>
+			<display_name:At the gates of the enemy./>
+			<display_text:A stone wall marks another fortress./>
+			<possibility:25/>
+			<xp_reward:1000/>
+			<gold_reward:240/>
+			<options>
+				<option:attack>
+					<display_name:Attack the fortress./>
+					<resolution_text:Before they are able to setup in full strength, you charge in. A handfull of soldiers meet you otuside the gate. />
+				</option>
+				<option:leave>
+					<display_name:walk around./>
+					<resolution_text:Slowly leaving, and no intentions of attacking. />
+				</option>				
+			</options>
+			<combat>
+				<scenario:battlefield>
+					<wave>
+						<warrior:4/>
+					</wave>
+					<wave>
+						<warrior:6/>
+					</wave>
+					<wave>
+						<warrior:8/>
+					</wave>
+				</scenario>
+				<scenario:ruin>
+					<wave>
+						<warrior:6/>
+					</wave>
+					<wave>
+						<warrior:8/>
+					</wave>
+					<wave>
+						<warrior:8/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_fortress_1>
+	</region>
+	<region:neutral_fortress>
+		<indifferent_fortress>
+			<display_name:A fortress in the horizon./>
+			<display_text:They hail you but wont let you in since you are not of their fraction. />
+			<possibility:25/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:leave>
+					<display_name: Leave, and continue the travel/>
+					<resolution_text:Lots of new places to explore, no need to stand outside a closed gate./>
+				</option>
+			</options>
+		</indifferent_fortress>
+	</region>
+	<region:friendly_fortress>
+		<friendly_fortress_1>
+			<display_name:A fortress in the  horizon./>
+			<display_text:Greeted as heroes you enter the camp inside the fortress. />
+			<possibility:25/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_healing>
+					<display_name:Free healing from the stationed medic. />
+					<resolution_text:Some good rest and some healing will do good./>
+					<required:goldprice>
+						<amount:0/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name: Leave the camp/>
+					<resolution_text:Lots of new places to explore, no need to be here anny longer./>
+				</option>
+			</options>
+		</friendly_fortress_1>
+	</region>
+	<region:hostile_outpost>
+		<hostile_outpost_1>
+			<display_name:At the gates of the enemy./>
+			<display_text:A palisade of wood marks an enemy outpost./>
+			<possibility:25/>
+			<xp_reward:600/>
+			<gold_reward:140/>
+			<options>
+				<option:attack>
+					<display_name:Attack the outpost./>
+					<resolution_text:Before they are able to setup in full strength, you charge in. />
+				</option>
+				<option:leave>
+					<display_name:walk around./>
+					<resolution_text:Slowly leaving, and no intentions of attacking. />
+				</option>				
+			</options>
+			<combat>
+				<scenario:battlefield>
+					<wave>
+						<warrior:6/>
+					</wave>
+					<wave>
+						<warrior:8/>
+					</wave>
+					<wave>
+						<warrior:8/>
+					</wave>
+				</scenario>
+			</combat>
+		</hostile_outpost_1>
+	</region>
+	<region:neutral_outpost>
+		<indifferent_outpost>
+			<display_name:A outpost in the horizon./>
+			<display_text:They hail you but wont let you in since you are not of their fraction. />
+			<possibility:25/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:leave>
+					<display_name: Leave, and continue the travel/>
+					<resolution_text:Lots of new places to explore, no need to stand outside a closed gate./>
+				</option>
+			</options>
+		</indifferent_outpost>
+	</region>
+	<region:friendly_outpost>
+		<friendly_outpost_1>
+			<display_name:A outpost in the  horizon./>
+			<display_text:Greeted as heroes you enter the camp inside the outpost. />
+			<possibility:25/>
+			<xp_reward:0/>
+			<gold_reward:0/>
+			<options>
+				<option:pay_healing>
+					<display_name:Free healing from the stationed medic. />
+					<resolution_text:Some good rest and some healing will do good./>
+					<required:goldprice>
+						<amount:0/>
+					</required>
+				</option>
+				<option:leave>
+					<display_name: Leave the camp/>
+					<resolution_text:Lots of new places to explore, no need to be here anny longer./>
+				</option>
+			</options>
+		</friendly_outpost_1>
+	</region>
+</encounters>

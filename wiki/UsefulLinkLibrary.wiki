@@ -1,0 +1,4 @@
+= Basic Links =
+
+Google Style Guide: (Very useful, even beyond the formatting)
+http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml

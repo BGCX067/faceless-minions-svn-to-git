@@ -1,0 +1,37 @@
+<scenarios>
+	<hills>
+		<background:images/backgrounds/hills.png/>
+		<max_obstacles:5/>
+		<obs_lower_limit:5/>
+		<obs_upper_limit:20/>
+		<obstacle:tree_stump/>
+	</hills>
+	<cave>
+		<background:images/backgrounds/cave.png/>
+		<max_obstacles:0/>
+	</cave>
+	<battlefield>
+		<background:images/backgrounds/battlefield.png/>
+		<max_obstacles:0/>
+	</battlefield>
+	<city>
+		<background:images/backgrounds/city.png/>
+		<max_obstacles:0/>
+	</city>
+	<forrest>
+		<background:images/backgrounds/forrest.png/>
+		<max_obstacles:0/>
+	</forrest>
+	<lake>
+		<background:images/backgrounds/lake.png/>
+		<max_obstacles:0/>
+	</lake>
+	<mountain>
+		<background:images/backgrounds/mountain.png/>
+		<max_obstacles:0/>
+	</mountain>
+	<ruin>
+		<background:images/backgrounds/ruin.png/>
+		<max_obstacles:0/>
+	</ruin>
+</scenarios>

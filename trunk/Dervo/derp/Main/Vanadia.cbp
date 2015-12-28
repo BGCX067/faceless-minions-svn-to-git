@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Vanadia" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Vanadia" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DSFML_STATIC" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-s-d" />
+					<Add library="sfml-audio-s-d" />
+					<Add library="sfml-window-s-d" />
+					<Add library="sfml-system-s-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Vanadia" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics-s" />
+					<Add library="sfml-audio-s" />
+					<Add library="sfml-window-s" />
+					<Add library="sfml-system-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DSFML_STATIC" />
+			<Add directory="%SFML_HOME%/include" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add directory="%SFML_HOME%/lib" />
+		</Linker>
+		<Unit filename="include/icarus/ai.hpp" />
+		<Unit filename="include/icarus/ai/behavior_node.hpp" />
+		<Unit filename="include/icarus/ai/debug_node.hpp" />
+		<Unit filename="include/icarus/ai/forced_result_node.hpp" />
+		<Unit filename="include/icarus/ai/loop_node.hpp" />
+		<Unit filename="include/icarus/ai/parallel_node.hpp" />
+		<Unit filename="include/icarus/ai/reversal_node.hpp" />
+		<Unit filename="include/icarus/ai/selector_node.hpp" />
+		<Unit filename="include/icarus/ai/sequence_node.hpp" />
+		<Unit filename="include/icarus/ai/task.hpp" />
+		<Unit filename="include/icarus/ai/timer_node.hpp" />
+		<Unit filename="include/icarus/base_state.hpp" />
+		<Unit filename="include/icarus/config.hpp" />
+		<Unit filename="include/icarus/encounter.hpp" />
+		<Unit filename="include/icarus/encounter/ai/condition.hpp" />
+		<Unit filename="include/icarus/encounter/ai/task.hpp" />
+		<Unit filename="include/icarus/encounter/animate.hpp" />
+		<Unit filename="include/icarus/encounter/character_base.hpp" />
+		<Unit filename="include/icarus/encounter/character_hero.hpp" />
+		<Unit filename="include/icarus/encounter/character_npc.hpp" />
+		<Unit filename="include/icarus/encounter/combat_text.hpp" />
+		<Unit filename="include/icarus/encounter/composite_skill.hpp" />
+		<Unit filename="include/icarus/encounter/data.hpp" />
+		<Unit filename="include/icarus/encounter/grid.hpp" />
+		<Unit filename="include/icarus/encounter/grid_tile.hpp" />
+		<Unit filename="include/icarus/encounter/obstacle.hpp" />
+		<Unit filename="include/icarus/encounter/projectile.hpp" />
+		<Unit filename="include/icarus/encounter/skill_handler.hpp" />
+		<Unit filename="include/icarus/encounter/state.hpp" />
+		<Unit filename="include/icarus/encounter/ui/bar.hpp" />
+		<Unit filename="include/icarus/encounter/ui/hp_bar.hpp" />
+		<Unit filename="include/icarus/encounter/ui/icon.hpp" />
+		<Unit filename="include/icarus/encounter/ui/portrait.hpp" />
+		<Unit filename="include/icarus/encounter/ui/skillbar.hpp" />
+		<Unit filename="include/icarus/encounter/visual_effect.hpp" />
+		<Unit filename="include/icarus/endgame/state.hpp" />
+		<Unit filename="include/icarus/input_handler.hpp" />
+		<Unit filename="include/icarus/interface/base_tooltip.hpp" />
+		<Unit filename="include/icarus/interface/screen_fade.hpp" />
+		<Unit filename="include/icarus/interface/sprite_sheet.hpp" />
+		<Unit filename="include/icarus/interface/tooltip_handler.hpp" />
+		<Unit filename="include/icarus/math.hpp" />
+		<Unit filename="include/icarus/math/vector2.hpp" />
+		<Unit filename="include/icarus/menu/button.hpp" />
+		<Unit filename="include/icarus/menu/menu_state.hpp" />
+		<Unit filename="include/icarus/overworld/battlezone.hpp" />
+		<Unit filename="include/icarus/overworld/camera_class.h" />
+		<Unit filename="include/icarus/overworld/characacter_holder.hpp" />
+		<Unit filename="include/icarus/overworld/encounter_calculator.hpp" />
+		<Unit filename="include/icarus/overworld/gui/double_bar.hpp" />
+		<Unit filename="include/icarus/overworld/gui/encounter_dialog.hpp" />
+		<Unit filename="include/icarus/overworld/gui/gui_handler.hpp" />
+		<Unit filename="include/icarus/overworld/gui/icon.hpp" />
+		<Unit filename="include/icarus/overworld/gui/menu_bar.hpp" />
+		<Unit filename="include/icarus/overworld/gui/party_list.hpp" />
+		<Unit filename="include/icarus/overworld/gui/party_list_entry.hpp" />
+		<Unit filename="include/icarus/overworld/gui/party_member.hpp" />
+		<Unit filename="include/icarus/overworld/gui/post_battle.hpp" />
+		<Unit filename="include/icarus/overworld/hex_grid_creator.hpp" />
+		<Unit filename="include/icarus/overworld/hex_sprite.hpp" />
+		<Unit filename="include/icarus/overworld/nation_creator.hpp" />
+		<Unit filename="include/icarus/overworld/nation_info.hpp" />
+		<Unit filename="include/icarus/overworld/overworld_state.hpp" />
+		<Unit filename="include/icarus/overworld/party_handler.hpp" />
+		<Unit filename="include/icarus/overworld/party_member.hpp" />
+		<Unit filename="include/icarus/overworld/statistics.hpp" />
+		<Unit filename="include/icarus/overworld/struct_encounter.hpp" />
+		<Unit filename="include/icarus/overworld/struct_option.hpp" />
+		<Unit filename="include/icarus/resource_handler.hpp" />
+		<Unit filename="include/icarus/sound.hpp" />
+		<Unit filename="include/icarus/state_data.hpp" />
+		<Unit filename="include/icarus/state_manager.hpp" />
+		<Unit filename="include/icarus/utils.hpp" />
+		<Unit filename="include/icarus/utils/file.hpp" />
+		<Unit filename="include/icarus/utils/yth_handler.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/icarus/ai/debug_node.cpp" />
+		<Unit filename="src/icarus/ai/forced_result_node.cpp" />
+		<Unit filename="src/icarus/ai/loop_node.cpp" />
+		<Unit filename="src/icarus/ai/parallel_node.cpp" />
+		<Unit filename="src/icarus/ai/reversal_node.cpp" />
+		<Unit filename="src/icarus/ai/selector_node.cpp" />
+		<Unit filename="src/icarus/ai/sequence_node.cpp" />
+		<Unit filename="src/icarus/ai/timer_node.cpp" />
+		<Unit filename="src/icarus/config.cpp" />
+		<Unit filename="src/icarus/encounter/ai/condition.cpp" />
+		<Unit filename="src/icarus/encounter/ai/task.cpp" />
+		<Unit filename="src/icarus/encounter/animate.cpp" />
+		<Unit filename="src/icarus/encounter/character_base.cpp" />
+		<Unit filename="src/icarus/encounter/character_hero.cpp" />
+		<Unit filename="src/icarus/encounter/character_npc.cpp" />
+		<Unit filename="src/icarus/encounter/combat_text.cpp" />
+		<Unit filename="src/icarus/encounter/composite_skill.cpp" />
+		<Unit filename="src/icarus/encounter/grid.cpp" />
+		<Unit filename="src/icarus/encounter/grid_tile.cpp" />
+		<Unit filename="src/icarus/encounter/obstacle.cpp" />
+		<Unit filename="src/icarus/encounter/projectile.cpp" />
+		<Unit filename="src/icarus/encounter/skill_handler.cpp" />
+		<Unit filename="src/icarus/encounter/state.cpp" />
+		<Unit filename="src/icarus/encounter/ui/bar.cpp" />
+		<Unit filename="src/icarus/encounter/ui/hp_bar.cpp" />
+		<Unit filename="src/icarus/encounter/ui/icon.cpp" />
+		<Unit filename="src/icarus/encounter/ui/portrait.cpp" />
+		<Unit filename="src/icarus/encounter/ui/skillbar.cpp" />
+		<Unit filename="src/icarus/encounter/visual_effect.cpp" />
+		<Unit filename="src/icarus/endgame/state.cpp" />
+		<Unit filename="src/icarus/input_handler.cpp" />
+		<Unit filename="src/icarus/interface/base_tooltip.cpp" />
+		<Unit filename="src/icarus/interface/screen_fade.cpp" />
+		<Unit filename="src/icarus/interface/sprite_sheet.cpp" />
+		<Unit filename="src/icarus/interface/tooltip_handler.cpp" />
+		<Unit filename="src/icarus/menu/button.cpp" />
+		<Unit filename="src/icarus/menu/menu_state.cpp" />
+		<Unit filename="src/icarus/overworld/battlezone.cpp" />
+		<Unit filename="src/icarus/overworld/camera_class.cpp" />
+		<Unit filename="src/icarus/overworld/characacter_holder.cpp" />
+		<Unit filename="src/icarus/overworld/encounter_calculator.cpp" />
+		<Unit filename="src/icarus/overworld/gui/double_bar.cpp" />
+		<Unit filename="src/icarus/overworld/gui/encounter_dialog.cpp" />
+		<Unit filename="src/icarus/overworld/gui/gui_handler.cpp" />
+		<Unit filename="src/icarus/overworld/gui/icon.cpp" />
+		<Unit filename="src/icarus/overworld/gui/menu_bar.cpp" />
+		<Unit filename="src/icarus/overworld/gui/party_list.cpp" />
+		<Unit filename="src/icarus/overworld/gui/party_list_entry.cpp" />
+		<Unit filename="src/icarus/overworld/gui/party_member.cpp" />
+		<Unit filename="src/icarus/overworld/gui/post_battle.cpp" />
+		<Unit filename="src/icarus/overworld/hex_grid_creator.cpp" />
+		<Unit filename="src/icarus/overworld/hex_sprite.cpp" />
+		<Unit filename="src/icarus/overworld/nation_creator.cpp" />
+		<Unit filename="src/icarus/overworld/nation_info.cpp" />
+		<Unit filename="src/icarus/overworld/overworld_state.cpp" />
+		<Unit filename="src/icarus/overworld/party_handler.cpp" />
+		<Unit filename="src/icarus/overworld/party_member.cpp" />
+		<Unit filename="src/icarus/resource_handler.cpp" />
+		<Unit filename="src/icarus/sound.cpp" />
+		<Unit filename="src/icarus/state_manager.cpp" />
+		<Unit filename="src/icarus/utils.cpp" />
+		<Unit filename="src/icarus/utils/file.cpp" />
+		<Unit filename="src/icarus/utils/yth_handler.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

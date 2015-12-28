@@ -1,0 +1,28 @@
+<audio>
+	#TODO:: kategorisering, har bare gitt de random navn atm :)
+	<battle:resources/audio/into_battle.ogg/>
+	<battle:resources/audio/forward_to_victory.ogg/>
+	<menu:resources/audio/main_theme.ogg/>
+	<dungeon:resources/audio/dark_depths.ogg/>
+	<overworld:resources/audio/across_the_plains.ogg/>
+	<battle_dark:resources/audio/heros_last_stand.ogg/>
+	<sfx>
+		<menu_hover:resources/audio/sfx/menu_hover.ogg/>
+		<menu_select:resources/audio/sfx/menu_select.ogg/>
+		<ironclad_ground_slam:resources/audio/sfx/ironclad_ground_slam.ogg/>
+		<coins:resources/audio/sfx/coins.ogg/>
+		<fireball_cast:resources/audio/sfx/fireball_cast.ogg/>
+		<fireball_hit:resources/audio/sfx/fireball_hit.ogg/>
+		<fireball_hit:resources/audio/sfx/fireball_hit2.ogg/>
+		<sword:resources/audio/sfx/sword_01.ogg/>
+		<sword:resources/audio/sfx/sword_02.ogg/>
+		<sword:resources/audio/sfx/sword_03.ogg/>
+		<sword:resources/audio/sfx/sword_04.ogg/>
+		<bow:resources/audio/sfx/bow.ogg/>
+		<close_dialog:resources/audio/sfx/close_dialog.ogg/>
+		<open_dialog:resources/audio/sfx/open_dialog.ogg/>
+		<drop_item:resources/audio/sfx/equip_item.ogg/>
+		<take_item:resources/audio/sfx/take_item.ogg/>
+		<gust:resources/audio/sfx/gust.ogg/>
+	</sfx>
+</audio>

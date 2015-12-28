@@ -1,0 +1,32 @@
+<classes>
+	<warrior>
+		<skill:ironclad_base_attack/>
+		<skill:ironclad_seismic_slam/>
+		<skill:ironclad_berzerker/>
+		<skill:ironclad_cascading_pummels/>
+		<skill:ironclad_whirlwind/>
+		<sprite_sheet:heroes/>
+		<portrait:images/ui/icons/portrait_ironclad.png/>
+		<portrait_rot:images/ui/icons/portrait_ironclad_rot.png/>
+	</warrior>
+	<rogue>
+		<skill:quicksilver_base_attack/>
+		<skill:quicksilver_rooted_dagger/>
+		<skill:quicksilver_riposte/>
+		<skill:quicksilver_blink_cloak/>
+		<skill:dummy_ability/>
+		<sprite_sheet:heroes/>
+		<portrait:images/ui/icons/portrait_quicksilver.png/>
+		<portrait_rot:images/ui/icons/portrait_quicksilver_rot.png/>
+	</rogue>
+	<mage>
+		<skill:mage_base_attack/>
+		<skill:mage_rising_shards/>
+		<skill:mage_shattered_journey/>
+		<skill:mage_shardpunch/>
+		<skill:mage_overload/>
+		<sprite_sheet:heroes/>
+		<portrait:images/ui/icons/portrait_alchemist.png/>
+		<portrait_rot:images/ui/icons/portrait_alchemist_rot.png/>
+	</mage>
+</classes>

@@ -1,0 +1,12 @@
+<audio>
+	#TODO:: kategorisering, har bare gitt de random navn atm :)
+	<battle:resources/audio/into_battle.ogg/>
+	<menu:resources/audio/main_theme.ogg/>
+	<dungeon:resources/audio/dark_depths.ogg/>
+	<overworld:resources/audio/heros_last_stand.ogg/>
+	
+	<sfx>
+		<menu_hover:resources/audio/sfx/menu_hover.ogg/>
+		<menu_select:resources/audio/sfx/menu_select.ogg/>
+	</sfx>
+</audio>

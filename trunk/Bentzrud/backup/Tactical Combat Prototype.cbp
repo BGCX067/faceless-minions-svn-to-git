@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="xHe Encounter Prototype" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Tactical Combat Prototype" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics-s-d" />
+					<Add library="sfml-window-s-d" />
+					<Add library="sfml-system-s-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Tactical Combat Prototype" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics-s" />
+					<Add library="sfml-window-s" />
+					<Add library="sfml-system-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DSFML_STATIC" />
+			<Add directory="%SFML_HOME%/include" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add directory="%SFML_HOME%/lib" />
+		</Linker>
+		<Unit filename="include/icarus/ai.hpp" />
+		<Unit filename="include/icarus/ai/behavior_node.hpp" />
+		<Unit filename="include/icarus/ai/debug_node.hpp" />
+		<Unit filename="include/icarus/ai/parallel_node.hpp" />
+		<Unit filename="include/icarus/ai/selector_node.hpp" />
+		<Unit filename="include/icarus/ai/sequence_node.hpp" />
+		<Unit filename="include/icarus/ai/task.hpp" />
+		<Unit filename="include/icarus/ai/timer_node.hpp" />
+		<Unit filename="include/icarus/base_state.hpp" />
+		<Unit filename="include/icarus/encounter.hpp" />
+		<Unit filename="include/icarus/encounter/ai/condition.hpp" />
+		<Unit filename="include/icarus/encounter/ai/task.hpp" />
+		<Unit filename="include/icarus/encounter/animate.hpp" />
+		<Unit filename="include/icarus/encounter/character_base.hpp" />
+		<Unit filename="include/icarus/encounter/character_hero.hpp" />
+		<Unit filename="include/icarus/encounter/character_npc.hpp" />
+		<Unit filename="include/icarus/encounter/combat_text.hpp" />
+		<Unit filename="include/icarus/encounter/composite_skill.hpp" />
+		<Unit filename="include/icarus/encounter/data.hpp" />
+		<Unit filename="include/icarus/encounter/grid.hpp" />
+		<Unit filename="include/icarus/encounter/grid_tile.hpp" />
+		<Unit filename="include/icarus/encounter/projectile.hpp" />
+		<Unit filename="include/icarus/encounter/skill_handler.hpp" />
+		<Unit filename="include/icarus/encounter/state.hpp" />
+		<Unit filename="include/icarus/encounter/ui_bar.hpp" />
+		<Unit filename="include/icarus/encounter/ui_hp_bar.hpp" />
+		<Unit filename="include/icarus/input_handler.hpp" />
+		<Unit filename="include/icarus/math.hpp" />
+		<Unit filename="include/icarus/math/vector2.hpp" />
+		<Unit filename="include/icarus/resource_handler.hpp" />
+		<Unit filename="include/icarus/state_data.hpp" />
+		<Unit filename="include/icarus/state_manager.hpp" />
+		<Unit filename="include/icarus/utilities.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/icarus/ai/debug_node.cpp" />
+		<Unit filename="src/icarus/ai/parallel_node.cpp" />
+		<Unit filename="src/icarus/ai/selector_node.cpp" />
+		<Unit filename="src/icarus/ai/sequence_node.cpp" />
+		<Unit filename="src/icarus/ai/timer_node.cpp" />
+		<Unit filename="src/icarus/encounter/ai/condition.cpp" />
+		<Unit filename="src/icarus/encounter/ai/task.cpp" />
+		<Unit filename="src/icarus/encounter/animate.cpp" />
+		<Unit filename="src/icarus/encounter/character_base.cpp" />
+		<Unit filename="src/icarus/encounter/character_hero.cpp" />
+		<Unit filename="src/icarus/encounter/character_npc.cpp" />
+		<Unit filename="src/icarus/encounter/combat_text.cpp" />
+		<Unit filename="src/icarus/encounter/composite_skill.cpp" />
+		<Unit filename="src/icarus/encounter/grid.cpp" />
+		<Unit filename="src/icarus/encounter/grid_tile.cpp" />
+		<Unit filename="src/icarus/encounter/projectile.cpp" />
+		<Unit filename="src/icarus/encounter/skill_handler.cpp" />
+		<Unit filename="src/icarus/encounter/state.cpp" />
+		<Unit filename="src/icarus/encounter/ui_bar.cpp" />
+		<Unit filename="src/icarus/encounter/ui_hp_bar.cpp" />
+		<Unit filename="src/icarus/input_handler.cpp" />
+		<Unit filename="src/icarus/resource_handler.cpp" />
+		<Unit filename="src/icarus/state_manager.cpp" />
+		<Unit filename="src/icarus/utilities.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

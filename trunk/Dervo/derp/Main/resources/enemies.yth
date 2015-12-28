@@ -1,0 +1,42 @@
+<enemy_list>
+	## PROPER ENEMIES ##
+	<bandit>
+		<display_name:Bandit/>
+		<health:30/>
+		<base_speed:250.0/>
+		<ammunition:0/>
+		<skill:enemy_bandit_melee/>
+		<sprite_sheet:basic_enemies/>
+		<sprite:basic_melee_enemy/>
+	</bandit>
+	<bandit_archer>
+		<display_name:Bandit/>
+		<health:30/>
+		<base_speed:250.0/>
+		<ammunition:5/>
+		<skill:enemy_bandit_melee/>
+		<skill:enemy_bandit_ranged/>
+		<sprite_sheet:basic_enemies/>
+		<sprite:basic_melee_enemy/>
+	</bandit_archer>
+	<warrior>
+		<display_name:Enemy Warrior/>
+		<health:75/>
+		<base_speed:250.0/>
+		<ammunition:0/>
+		<skill:enemy_warrior_melee/>
+		<sprite_sheet:basic_enemies/>
+		<sprite:basic_melee_enemy/>
+	</warrior>
+	<mage>
+		<display_name:Enemy Wizard/>
+		<health:50/>
+		<base_speed:250.0/>
+		<ammunition:10/>
+		<skill:enemy_mage_melee/>
+		<skill:npc_fireball/>
+		<sprite_sheet:basic_enemies/>
+		<sprite:basic_ranged_enemy/>
+	</mage>
+	## END PROPER ENEMIES ##
+</enemy_list>

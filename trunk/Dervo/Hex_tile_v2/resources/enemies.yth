@@ -1,0 +1,57 @@
+<enemy_list>
+	## PROPER ENEMIES ##
+	<warrior>
+		<display_name:Enemy Warrior/>
+		<health:75/>
+		<base_speed:250.0/>
+		<ammunition:0/>
+		<skill:enemy_warrior_melee/>
+		<sprite_sheet:enemies/>
+	</warrior>
+	<mage>
+		<display_name:Test Box Enemy/>
+		<health:50/>
+		<base_speed:250.0/>
+		<ammunition:10/>
+		<skill:npc_fireball/>
+		<skill:enemy_mage_melee/>
+		<sprite_sheet:enemies/>
+	</mage>
+	## END PROPER ENEMIES ##
+	## DUMMY ENEMIES ##
+	<test_box_enemy>
+		<display_name:Test Box Enemy/>
+		<health:100/>
+		<base_speed:250.0/>
+		<ammunition:10/>
+		<skill:npc_fireball/>
+		<skill:npc_basic_melee/>
+		<sprite_sheet:basic_enemies/>
+	</test_box_enemy>
+	<test_melee_enemy>
+		<display_name:Test Box Enemy/>
+		<health:100/>
+		<base_speed:250.0/>
+		<ammunition:10/>
+		<skill:npc_fireball/>
+		<skill:npc_basic_melee/>
+		<sprite_sheet:basic_enemies/>
+	</test_melee_enemy>
+	<basic_ranged_enemy>
+		<display_name:Basic Ranged Enemy/>
+		<health:100/>
+		<base_speed:250.0/>
+		<ammunition:10/>
+		<skill:npc_fireball/>
+		<skill:npc_basic_melee/>
+		<sprite_sheet:basic_enemies/>
+	</basic_ranged_enemy>
+	<basic_melee_enemy>
+		<display_name:Basic Melee Enemy/>
+		<health:100/>
+		<base_speed:250.0/>
+		<ammunition:0/>
+		<skill:npc_basic_melee/>
+		<sprite_sheet:basic_enemies/>
+	</basic_melee_enemy>
+</enemy_list>

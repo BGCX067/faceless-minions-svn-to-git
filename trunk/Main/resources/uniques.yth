@@ -1,0 +1,44 @@
+<uniques>
+	<bentzhammer>
+		<name:The Bentzhammer/>
+		<class:weapon/>
+		<damage:1000-2000/>
+		<damage_min:10-10/>
+		<damage_max:200-400/>
+		<damage_mod:0.2-0.2/>
+		<crit_chance:100-100/>
+		<crit_mult:0.0-0.0/>
+		<dodge_chance:0-0/>
+		<block_chance:0-0/>
+		<block_mult:0.0-0.0/>
+		<resist_chance:0-0/>
+		<resist_mult:0.0-0.0/>
+		<health_bonus:300-450/>
+		<health_regen:150-200/>
+		<strength:100-300/>
+		<intelligence:0-0/>
+		<agility:0-0/>
+		<flavortext:"The classic 'Mace to Face' technique."/>
+	</bentzhammer>
+	<fiddle>
+		<name:Bjørn Sverre's Fiddle/>
+		<class:misc/>
+		<damage:0-0/>
+		<damage_min:0-0/>
+		<damage_max:0-0/>
+		<damage_mod:0.0-0.0/>
+		<crit_chance:0-0/>
+		<crit_mult:0.0-0.0/>
+		<dodge_chance:0-0/>
+		<block_chance:0-0/>
+		<block_mult:0.0-0.0/>
+		<resist_chance:0-0/>
+		<resist_mult:0.0-0.0/>
+		<health_bonus:0-0/>
+		<health_regen:0-0/>
+		<strength:0-0/>
+		<intelligence:0-0/>
+		<agility:0-0/>
+		<flavortext:""/>
+	</fiddle>
+</uniques>

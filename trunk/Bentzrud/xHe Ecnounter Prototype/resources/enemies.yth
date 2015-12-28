@@ -1,0 +1,37 @@
+<enemy_list>
+	<test_box_enemy>
+		<display_name:Test Box Enemy/>
+		<health:100/>
+		<base_speed:100.0/>
+		<ammunition:10/>
+		<skill:npc_fireball/>
+		<skill:npc_basic_melee/>
+		<sprite_sheet:basic_enemies/>
+	</test_box_enemy>
+	<test_melee_enemy>
+		<display_name:Test Box Enemy/>
+		<health:100/>
+		<base_speed:100.0/>
+		<ammunition:10/>
+		<skill:npc_fireball/>
+		<skill:npc_basic_melee/>
+		<sprite_sheet:basic_enemies/>
+	</test_melee_enemy>
+	<basic_ranged_enemy>
+		<display_name:Basic Ranged Enemy/>
+		<health:100/>
+		<base_speed:100.0/>
+		<ammunition:10/>
+		<skill:npc_fireball/>
+		<skill:npc_basic_melee/>
+		<sprite_sheet:basic_enemies/>
+	</basic_ranged_enemy>
+	<basic_melee_enemy>
+		<display_name:Basic Melee Enemy/>
+		<health:100/>
+		<base_speed:100.0/>
+		<ammunition:0/>
+		<skill:npc_basic_melee/>
+		<sprite_sheet:basic_enemies/>
+	</basic_melee_enemy>
+</enemy_list>

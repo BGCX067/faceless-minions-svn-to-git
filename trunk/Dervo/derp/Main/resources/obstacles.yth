@@ -1,0 +1,7 @@
+<obstacles>
+	<tree_stump>
+		<display_name:Tree Stump/>
+		<sprite_sheet:tree_stump/>
+		<health:3/>
+	</tree_stump>
+</obstacles>

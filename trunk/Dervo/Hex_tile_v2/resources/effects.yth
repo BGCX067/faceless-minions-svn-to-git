@@ -1,0 +1,34 @@
+<effects>
+	<projectiles>
+		<mage_projectile>
+			<sprite_sheet:mage_projectile/>
+			<sprite_name:mage_projectile/>
+			<impact>
+				<sprite_sheet:mage_projectile_explosion/>
+				<sprite_name:mage_projectile_explosion/>
+			</impact>
+		</mage_projectile>
+		<fireball>
+			<sprite_sheet:fireball/>
+			<sprite_name:fireball/>
+			<impact>
+				<sprite_sheet:explosion/>
+				<sprite_name:explosion/>
+			</impact>
+		</fireball>
+		<rising_shards>
+			<sprite_sheet:rising_shards/>
+			<sprite_name:rising_shards/>
+		</rising_shards>
+	</projectiles>
+	<interface>
+		<autocast>
+			<sprite_sheet:autocast_indicator/>
+			<sprite_name:loop/>
+		</autocast>
+		<cooldown_complete>
+			<sprite_sheet:cooldown_complete/>
+			<sprite_name:complete/>
+		</cooldown_complete>
+	</interface>
+</effects>

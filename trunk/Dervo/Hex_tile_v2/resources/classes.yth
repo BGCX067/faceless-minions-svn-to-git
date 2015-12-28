@@ -1,0 +1,26 @@
+<classes>
+	<warrior>
+		<skill:ironclad_base_attack/>
+		<skill:ironclad_seismic_slam/>
+		<skill:dummy_ability/>
+		<skill:dummy_ability/>
+		<skill:dummy_ability/>
+		<sprite_sheet:heroes/>
+	</warrior>
+	<rogue>
+		<skill:quicksilver_base_attack/>
+		<skill:quicksilver_rooted_dagger/>
+		<skill:dummy_ability/>
+		<skill:dummy_ability/>
+		<skill:dummy_ability/>
+		<sprite_sheet:heroes/>
+	</rogue>
+	<mage>
+		<skill:mage_base_attack/>
+		<skill:mage_rising_shards/>
+		<skill:dummy_ability/>
+		<skill:dummy_ability/>
+		<skill:dummy_ability/>
+		<sprite_sheet:heroes/>
+	</mage>
+</classes>

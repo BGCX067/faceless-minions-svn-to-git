@@ -1,0 +1,1999 @@
+# depslib dependency file v1.0
+1366715612 source:d:\work\cplusplus\pilotprosjekt\main\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<SFML/Graphics.hpp>
+	"icarus/state_manager.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/encounter/state.hpp"
+
+1365236458 d:\sfml\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1365236458 d:\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1365236458 d:\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1365236458 d:\sfml\include\sfml\config.hpp
+
+1365236458 d:\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1365236458 d:\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1365236458 d:\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1365236458 d:\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1365236458 d:\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+
+1365236458 d:\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1365236458 d:\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1365236458 d:\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1365236458 d:\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1365236458 d:\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<locale>
+	<string>
+
+1365236458 d:\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1365236458 d:\sfml\include\sfml\system\thread.inl
+
+1365236458 d:\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1365236458 d:\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1365236458 d:\sfml\include\sfml\system\threadlocalptr.inl
+
+1365236458 d:\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1365236458 d:\sfml\include\sfml\system\utf.inl
+
+1365236458 d:\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1365236458 d:\sfml\include\sfml\system\vector2.inl
+
+1365236458 d:\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1365236458 d:\sfml\include\sfml\system\vector3.inl
+
+1365236458 d:\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1365236458 d:\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1365236458 d:\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1365236458 d:\sfml\include\sfml\window\contextsettings.hpp
+
+1365236458 d:\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+
+1365236458 d:\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+
+1365236458 d:\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1365236458 d:\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1365236458 d:\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1365236458 d:\sfml\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1365236458 d:\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1365236458 d:\sfml\include\sfml\window\windowstyle.hpp
+
+1365236458 d:\sfml\include\sfml\graphics\blendmode.hpp
+
+1365236458 d:\sfml\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1365236458 d:\sfml\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1365236458 d:\sfml\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1365236458 d:\sfml\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1365236458 d:\sfml\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1365236458 d:\sfml\include\sfml\graphics\rect.inl
+
+1365236458 d:\sfml\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1365236458 d:\sfml\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1365236458 d:\sfml\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1365236458 d:\sfml\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1365236458 d:\sfml\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1365236458 d:\sfml\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1365236458 d:\sfml\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1365236458 d:\sfml\include\sfml\graphics\primitivetype.hpp
+
+1365236458 d:\sfml\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1365236458 d:\sfml\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1365236458 d:\sfml\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1365236458 d:\sfml\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1365236458 d:\sfml\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1365236458 d:\sfml\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1365236458 d:\sfml\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1365236458 d:\sfml\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1365236458 d:\sfml\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1365236458 d:\sfml\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1365236458 d:\sfml\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1365236458 d:\sfml\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1366649146 d:\work\cplusplus\pilotprosjekt\main\include\icarus\state_manager.hpp
+	<vector>
+	"icarus/base_state.hpp"
+	"icarus/state_data.hpp"
+	"icarus/config.hpp"
+	"icarus/utils/yth_handler.hpp"
+
+1360167467 d:\work\cplusplus\pilotprosjekt\main\include\icarus\base_state.hpp
+	<SFML/Graphics.hpp>
+
+1360065581 d:\work\cplusplus\pilotprosjekt\main\include\icarus\state_data.hpp
+
+1365156372 d:\work\cplusplus\pilotprosjekt\main\include\icarus\config.hpp
+	<unordered_map>
+	<cstdlib>
+	"icarus/utils.hpp"
+
+1366196793 d:\work\cplusplus\pilotprosjekt\main\include\icarus\utils.hpp
+	<string>
+	<sstream>
+	<iomanip>
+	<iostream>
+	<SFML/Graphics.hpp>
+	"icarus/math.hpp"
+
+1361119600 d:\work\cplusplus\pilotprosjekt\main\include\icarus\math.hpp
+	<cmath>
+
+1365156372 d:\work\cplusplus\pilotprosjekt\main\include\icarus\utils\yth_handler.hpp
+	<string>
+	<vector>
+	<iostream>
+	<fstream>
+	<stack>
+
+1365182830 d:\work\cplusplus\pilotprosjekt\main\include\icarus\resource_handler.hpp
+	<unordered_map>
+	<SFML/Graphics.hpp>
+	"icarus/utils/yth_handler.hpp"
+
+1366642981 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\state.hpp
+	<vector>
+	<string>
+	<SFML/Graphics.hpp>
+	"icarus/base_state.hpp"
+	"icarus/encounter/character_hero.hpp"
+	"icarus/encounter/character_npc.hpp"
+	"icarus/encounter/grid.hpp"
+	"icarus/input_handler.hpp"
+	"icarus/encounter/data.hpp"
+	"icarus/encounter/skill_handler.hpp"
+	"icarus/encounter/ui/skillbar.hpp"
+
+1366019344 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\character_hero.hpp
+	"icarus/encounter/character_base.hpp"
+	"icarus/encounter/composite_skill.hpp"
+	"icarus/encounter/data.hpp"
+	"icarus/encounter/ui/portrait.hpp"
+
+1365950156 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\character_base.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	<iostream>
+	"icarus/math/vector2.hpp"
+	"icarus/encounter.hpp"
+	"icarus/encounter/animate.hpp"
+	"icarus/encounter/combat_text.hpp"
+	"icarus/encounter/ui/hp_bar.hpp"
+
+1366637700 d:\work\cplusplus\pilotprosjekt\main\include\icarus\math\vector2.hpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"icarus/math.hpp"
+
+1365500765 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter.hpp
+	<string>
+	<stdint.h>
+	"icarus/math/vector2.hpp"
+
+1365949262 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\animate.hpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	"icarus/state_manager.hpp"
+	"icarus/math/vector2.hpp"
+	"icarus/config.hpp"
+	"icarus/utils/yth_handler.hpp"
+
+1362414730 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\combat_text.hpp
+	<vector>
+	<SFML/Graphics.hpp>
+	"icarus/math/vector2.hpp"
+
+1365859003 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\ui\hp_bar.hpp
+	"icarus/encounter/ui/bar.hpp"
+
+1365417719 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\ui\bar.hpp
+	<SFML/Graphics.hpp>
+	"icarus/math/vector2.hpp"
+	"icarus/utils.hpp"
+
+1366196704 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\composite_skill.hpp
+	<vector>
+	"icarus/encounter.hpp"
+	"icarus/utils/yth_handler.hpp"
+
+1365156372 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\data.hpp
+	<queue>
+	"icarus/state_data.hpp"
+	"icarus/utils/yth_handler.hpp"
+
+1366019369 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\ui\portrait.hpp
+	"icarus/encounter/ui/hp_bar.hpp"
+
+1365518205 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\character_npc.hpp
+	"icarus/encounter/character_base.hpp"
+	"icarus/encounter/composite_skill.hpp"
+	"icarus/ai/behavior_node.hpp"
+	"icarus/encounter/data.hpp"
+
+1361542148 d:\work\cplusplus\pilotprosjekt\main\include\icarus\ai\behavior_node.hpp
+	<vector>
+	"icarus/ai.hpp"
+
+1361458937 d:\work\cplusplus\pilotprosjekt\main\include\icarus\ai.hpp
+
+1365418285 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\grid.hpp
+	<vector>
+	<SFML/Graphics.hpp>
+	"icarus/encounter/grid_tile.hpp"
+	"icarus/encounter.hpp"
+
+1362500303 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\grid_tile.hpp
+	<SFML/Graphics.hpp>
+	"icarus/math/vector2.hpp"
+	"icarus/encounter/character_base.hpp"
+
+1366652938 d:\work\cplusplus\pilotprosjekt\main\include\icarus\input_handler.hpp
+	<SFML/Graphics.hpp>
+	"icarus/math/vector2.hpp"
+
+1366195988 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\skill_handler.hpp
+	<vector>
+	"icarus/encounter.hpp"
+	"icarus/encounter/character_base.hpp"
+	"icarus/encounter/composite_skill.hpp"
+	"icarus/encounter/grid.hpp"
+	"icarus/encounter/projectile.hpp"
+	"icarus/encounter/visual_effect.hpp"
+	"icarus/encounter/ui/skillbar.hpp"
+
+1365156372 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\projectile.hpp
+	<vector>
+	"icarus/encounter/character_base.hpp"
+	"icarus/encounter.hpp"
+	"icarus/utils/yth_handler.hpp"
+
+1366286545 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\visual_effect.hpp
+	"icarus/encounter/character_base.hpp"
+	"icarus/utils/yth_handler.hpp"
+
+1366196949 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\ui\skillbar.hpp
+	<SFML/Graphics.hpp>
+	"icarus/encounter/ui/icon.hpp"
+
+1366631451 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\ui\icon.hpp
+	<SFML/Graphics.hpp>
+	"icarus/utils.hpp"
+	"icarus/interface/base_tooltip.hpp"
+	"icarus/encounter/visual_effect.hpp"
+	"icarus/resource_handler.hpp"
+
+1366631313 d:\work\cplusplus\pilotprosjekt\main\include\icarus\interface\base_tooltip.hpp
+	<SFML/Graphics.hpp>
+
+1361473551 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\ai\debug_node.cpp
+	<iostream>
+	"icarus/ai/debug_node.hpp"
+
+1361473541 d:\work\cplusplus\pilotprosjekt\main\include\icarus\ai\debug_node.hpp
+	<string>
+	"icarus/ai/behavior_node.hpp"
+
+1362146853 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\ai\forced_result_node.cpp
+	"icarus/ai/forced_result_node.hpp"
+
+1362146910 d:\work\cplusplus\pilotprosjekt\main\include\icarus\ai\forced_result_node.hpp
+	"icarus/ai/behavior_node.hpp"
+
+1362147651 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\ai\loop_node.cpp
+	"icarus/ai/loop_node.hpp"
+
+1362147601 d:\work\cplusplus\pilotprosjekt\main\include\icarus\ai\loop_node.hpp
+	"icarus/ai/behavior_node.hpp"
+
+1361472906 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\ai\parallel_node.cpp
+	"icarus/ai/parallel_node.hpp"
+
+1361470929 d:\work\cplusplus\pilotprosjekt\main\include\icarus\ai\parallel_node.hpp
+	"icarus/ai/behavior_node.hpp"
+
+1362149140 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\ai\reversal_node.cpp
+	"icarus/ai/reversal_node.hpp"
+
+1362149170 d:\work\cplusplus\pilotprosjekt\main\include\icarus\ai\reversal_node.hpp
+	"icarus/ai/behavior_node.hpp"
+
+1361541714 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\ai\selector_node.cpp
+	<cstdlib>
+	<cmath>
+	"icarus/ai/selector_node.hpp"
+
+1361470990 d:\work\cplusplus\pilotprosjekt\main\include\icarus\ai\selector_node.hpp
+	"icarus/ai/behavior_node.hpp"
+
+1361541728 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\ai\sequence_node.cpp
+	"icarus/ai/sequence_node.hpp"
+
+1361471058 d:\work\cplusplus\pilotprosjekt\main\include\icarus\ai\sequence_node.hpp
+	"icarus/ai/behavior_node.hpp"
+
+1361623566 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\ai\timer_node.cpp
+	<iostream>
+	"icarus/ai/timer_node.hpp"
+
+1361623220 d:\work\cplusplus\pilotprosjekt\main\include\icarus\ai\timer_node.hpp
+	<SFML/Graphics.hpp>
+	"icarus/ai/behavior_node.hpp"
+
+1365156372 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\config.cpp
+	<iostream>
+	"icarus/config.hpp"
+	"icarus/utils/file.hpp"
+
+1365156372 d:\work\cplusplus\pilotprosjekt\main\include\icarus\utils\file.hpp
+	<iostream>
+	<fstream>
+	<string>
+
+1361631570 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\ai\condition.cpp
+	"icarus/encounter/ai/condition.hpp"
+
+1361631629 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\ai\condition.hpp
+	"icarus/ai/behavior_node.hpp"
+	"icarus/encounter/character_npc.hpp"
+
+1361713836 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\ai\task.cpp
+	"icarus/encounter/ai/task.hpp"
+
+1361713613 d:\work\cplusplus\pilotprosjekt\main\include\icarus\encounter\ai\task.hpp
+	"icarus/ai/behavior_node.hpp"
+	"icarus/encounter/character_npc.hpp"
+
+1366115651 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\animate.cpp
+	"icarus/encounter/animate.hpp"
+	"icarus/resource_handler.hpp"
+	<iostream>
+
+1365948114 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\character_base.cpp
+	"icarus/encounter/character_base.hpp"
+	"icarus/utils.hpp"
+	"icarus/state_manager.hpp"
+	"icarus/encounter/grid.hpp"
+	"icarus/resource_handler.hpp"
+
+1366019446 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\character_hero.cpp
+	"icarus/encounter/character_hero.hpp"
+	"icarus/resource_handler.hpp"
+
+1365948605 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\character_npc.cpp
+	"icarus/encounter/character_npc.hpp"
+	"icarus/ai/selector_node.hpp"
+	"icarus/ai/sequence_node.hpp"
+	"icarus/ai/parallel_node.hpp"
+	"icarus/ai/forced_result_node.hpp"
+	"icarus/ai/loop_node.hpp"
+	"icarus/ai/reversal_node.hpp"
+	"icarus/encounter/ai/condition.hpp"
+	"icarus/encounter/ai/task.hpp"
+	"icarus/encounter/grid.hpp"
+	"icarus/resource_handler.hpp"
+
+1366652995 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\combat_text.cpp
+	"icarus/resource_handler.hpp"
+	"icarus/encounter/combat_text.hpp"
+
+1365504664 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\composite_skill.cpp
+	"icarus/encounter/composite_skill.hpp"
+
+1365084365 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\grid.cpp
+	<cmath>
+	<iostream>
+	"icarus/encounter/grid.hpp"
+	"icarus/encounter/character_base.hpp"
+
+1365171397 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\grid_tile.cpp
+	"icarus/encounter/grid_tile.hpp"
+	"icarus/resource_handler.hpp"
+
+1365156372 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\projectile.cpp
+	"icarus/encounter/projectile.hpp"
+	"icarus/resource_handler.hpp"
+
+1366200162 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\skill_handler.cpp
+	"icarus/encounter/skill_handler.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/encounter/character_npc.hpp"
+	"icarus/encounter/character_hero.hpp"
+	"icarus/state_manager.hpp"
+
+1366649495 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\state.cpp
+	<iostream>
+	"icarus/encounter/state.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/state_manager.hpp"
+	"icarus/encounter/character_npc.hpp"
+	"icarus/utils/yth_handler.hpp"
+
+1366653018 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\ui\bar.cpp
+	"icarus/encounter/ui/bar.hpp"
+	"icarus/resource_handler.hpp"
+
+1365418108 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\ui\hp_bar.cpp
+	"icarus/encounter/ui/hp_bar.hpp"
+
+1366637536 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\ui\icon.cpp
+	"icarus/encounter/ui/icon.hpp"
+	"icarus/state_manager.hpp"
+
+1366019406 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\ui\portrait.cpp
+	"icarus/encounter/ui/portrait.hpp"
+	"icarus/utils.hpp"
+	"icarus/resource_handler.hpp"
+
+1366638237 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\ui\skillbar.cpp
+	"icarus/encounter/ui/skillbar.hpp"
+	"icarus/encounter/character_hero.hpp"
+	"icarus/encounter/state.hpp"
+	"icarus/resource_handler.hpp"
+
+1366286614 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\encounter\visual_effect.cpp
+	"icarus/encounter/visual_effect.hpp"
+	"icarus/resource_handler.hpp"
+
+1366653067 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\input_handler.cpp
+	"icarus/input_handler.hpp"
+
+1366631308 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\interface\base_tooltip.cpp
+	"icarus/interface/base_tooltip.hpp"
+
+1366210261 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\interface\tooltip_handler.cpp
+	"icarus/interface/tooltip_handler.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/utils.hpp"
+
+1366207924 d:\work\cplusplus\pilotprosjekt\main\include\icarus\interface\tooltip_handler.hpp
+	<SFML/Graphics.hpp>
+	"icarus/interface/base_tooltip.hpp"
+	"icarus/math/vector2.hpp"
+
+1365183516 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\resource_handler.cpp
+	"icarus/resource_handler.hpp"
+
+1366716707 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\state_manager.cpp
+	<ctime>
+	"icarus/state_manager.hpp"
+	"icarus/utils.hpp"
+	"icarus/input_handler.hpp"
+	"icarus/encounter/state.hpp"
+	"icarus/overworld/overworld_state.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/interface/tooltip_handler.hpp"
+
+1365170317 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\utils.cpp
+	<fstream>
+	"icarus/utils.hpp"
+
+1365156372 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\utils\file.cpp
+	"icarus/utils/file.hpp"
+
+1365156372 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\utils\yth_handler.cpp
+	"icarus/utils/yth_handler.hpp"
+
+1366714899 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\sound.cpp
+	"icarus/sound.hpp"
+	"icarus/math.hpp"
+
+1366714692 d:\work\cplusplus\pilotprosjekt\main\include\icarus\sound.hpp
+	<SFML/Audio.hpp>
+	<unordered_map>
+
+1365236458 d:\sfml\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1365236458 d:\sfml\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1365236458 d:\sfml\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1365236458 d:\sfml\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1365236458 d:\sfml\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1365236458 d:\sfml\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1365236458 d:\sfml\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1365236458 d:\sfml\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1365236458 d:\sfml\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1365236458 d:\sfml\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Thread.hpp>
+	<vector>
+
+1366715345 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\overworld\battlezone.cpp
+	"icarus/overworld/battlezone.hpp"
+
+1363697229 d:\work\cplusplus\pilotprosjekt\main\include\icarus\overworld\battlezone.hpp
+	"statistics.hpp"
+	"hex_sprite.hpp"
+
+1366718597 d:\work\cplusplus\pilotprosjekt\main\include\icarus\overworld\statistics.hpp
+	<vector>
+	<string>
+
+1366715344 d:\work\cplusplus\pilotprosjekt\main\include\icarus\overworld\hex_sprite.hpp
+	<vector>
+	<iostream>
+	<SFML/Graphics.hpp>
+	"statistics.hpp"
+	"icarus/math/vector2.hpp"
+
+1366715345 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\overworld\camera_class.cpp
+	"icarus/overworld/camera_class.h"
+
+1366715344 d:\work\cplusplus\pilotprosjekt\main\include\icarus\overworld\camera_class.h
+	<SFML/Graphics.hpp>
+	"icarus/math/vector2.hpp"
+	"statistics.hpp"
+	<iostream>
+
+1366717302 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\overworld\characacter_holder.cpp
+	"icarus/overworld/characacter_holder.hpp"
+	"icarus/utils/yth_handler.hpp"
+
+1366716279 d:\work\cplusplus\pilotprosjekt\main\include\icarus\overworld\characacter_holder.hpp
+	<SFML/Graphics.hpp>
+	"icarus/math/vector2.hpp"
+	"icarus/overworld/nation_creator.hpp"
+	"icarus/overworld/hex_sprite.hpp"
+	"icarus/overworld/statistics.hpp"
+	"icarus/overworld/encounter_calculator.hpp"
+	<iostream>
+
+1363697229 d:\work\cplusplus\pilotprosjekt\main\include\icarus\overworld\nation_creator.hpp
+	"statistics.hpp"
+	"icarus/math/vector2.hpp"
+	"battlezone.hpp"
+	"hex_sprite.hpp"
+	"nation_info.hpp"
+	<vector>
+
+1363697229 d:\work\cplusplus\pilotprosjekt\main\include\icarus\overworld\nation_info.hpp
+	"hex_sprite.hpp"
+	"statistics.hpp"
+	"icarus/math/vector2.hpp"
+	"battlezone.hpp"
+	<vector>
+
+1366715915 d:\work\cplusplus\pilotprosjekt\main\include\icarus\overworld\encounter_calculator.hpp
+	"icarus/resource_handler.hpp"
+	"hex_sprite.hpp"
+	"statistics.hpp"
+
+1366718465 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\overworld\encounter_calculator.cpp
+	"icarus/overworld/encounter_calculator.hpp"
+
+1363697229 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\overworld\nation_creator.cpp
+	"icarus/overworld/nation_creator.hpp"
+
+1366715345 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\overworld\nation_info.cpp
+	"icarus/overworld/nation_info.hpp"
+
+1366716642 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\overworld\hex_grid_creator.cpp
+	"icarus/overworld/hex_grid_creator.hpp"
+
+1366715344 d:\work\cplusplus\pilotprosjekt\main\include\icarus\overworld\hex_grid_creator.hpp
+	"hex_sprite.hpp"
+	"statistics.hpp"
+	<string>
+	<ctime>
+	<iostream>
+
+1366716660 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\overworld\hex_sprite.cpp
+	"icarus/overworld/hex_sprite.hpp"
+
+1366716681 source:d:\work\cplusplus\pilotprosjekt\main\src\icarus\overworld\overworld_state.cpp
+	"icarus/overworld/overworld_state.hpp"
+	"icarus/resource_handler.hpp"
+	<iostream>
+
+1366715344 d:\work\cplusplus\pilotprosjekt\main\include\icarus\overworld\overworld_state.hpp
+	<SFML/Graphics.hpp>
+	"icarus/base_state.hpp"
+	"hex_grid_creator.hpp"
+	"nation_creator.hpp"
+	"characacter_holder.hpp"
+	"camera_class.h"
+	<iostream>
+	"statistics.hpp"
+
+1367160277 source:d:\pilot\programfolder\main\main.cpp
+	<ctime>
+	<cstdlib>
+	"icarus/state_manager.hpp"
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/View.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\config.hpp
+
+1365236458 c:\sfml2\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1365236458 c:\sfml2\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<locale>
+	<string>
+
+1365236458 c:\sfml2\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1365236458 c:\sfml2\sfml\include\sfml\system\thread.inl
+
+1365236458 c:\sfml2\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1365236458 c:\sfml2\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1365236458 c:\sfml2\sfml\include\sfml\system\threadlocalptr.inl
+
+1365236458 c:\sfml2\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1365236458 c:\sfml2\sfml\include\sfml\system\utf.inl
+
+1365236458 c:\sfml2\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1365236458 c:\sfml2\sfml\include\sfml\system\vector2.inl
+
+1365236458 c:\sfml2\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1365236458 c:\sfml2\sfml\include\sfml\system\vector3.inl
+
+1365236458 c:\sfml2\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\window\contextsettings.hpp
+
+1365236458 c:\sfml2\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1365236458 c:\sfml2\sfml\include\sfml\window\window.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\window\windowstyle.hpp
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\blendmode.hpp
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\rect.inl
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\primitivetype.hpp
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1368124623 d:\pilot\programfolder\main\include\icarus\state_manager.hpp
+	<vector>
+	"icarus/base_state.hpp"
+	"icarus/state_data.hpp"
+	"icarus/utils/yth_handler.hpp"
+	"icarus/math/vector2.hpp"
+
+1366718943 d:\pilot\programfolder\main\include\icarus\base_state.hpp
+	<SFML/Graphics.hpp>
+
+1366718943 d:\pilot\programfolder\main\include\icarus\state_data.hpp
+
+1366718943 d:\pilot\programfolder\main\include\icarus\config.hpp
+	<unordered_map>
+	<cstdlib>
+	"icarus/utils.hpp"
+
+1368124623 d:\pilot\programfolder\main\include\icarus\utils.hpp
+	<string>
+	<sstream>
+	<iomanip>
+	<iostream>
+	<SFML/Graphics.hpp>
+	"icarus/math.hpp"
+	"icarus/state_manager.hpp"
+
+1366718942 d:\pilot\programfolder\main\include\icarus\math.hpp
+	<cmath>
+
+1366718944 d:\pilot\programfolder\main\include\icarus\utils\yth_handler.hpp
+	<string>
+	<vector>
+	<iostream>
+	<fstream>
+	<stack>
+
+1366812296 d:\pilot\programfolder\main\include\icarus\resource_handler.hpp
+	<unordered_map>
+	<SFML/Graphics.hpp>
+	"icarus/utils/yth_handler.hpp"
+
+1368124624 d:\pilot\programfolder\main\include\icarus\encounter\state.hpp
+	<vector>
+	<string>
+	<SFML/Graphics.hpp>
+	"icarus/base_state.hpp"
+	"icarus/encounter/character_hero.hpp"
+	"icarus/encounter/character_npc.hpp"
+	"icarus/encounter/grid.hpp"
+	"icarus/input_handler.hpp"
+	"icarus/encounter/data.hpp"
+	"icarus/encounter/skill_handler.hpp"
+	"icarus/encounter/ui/skillbar.hpp"
+	"icarus/encounter/obstacle.hpp"
+
+1368124624 d:\pilot\programfolder\main\include\icarus\encounter\character_hero.hpp
+	"icarus/encounter/character_base.hpp"
+	"icarus/encounter/composite_skill.hpp"
+	"icarus/encounter/data.hpp"
+	"icarus/encounter/ui/portrait.hpp"
+
+1368124624 d:\pilot\programfolder\main\include\icarus\encounter\character_base.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	<iostream>
+	<set>
+	"icarus/math/vector2.hpp"
+	"icarus/encounter.hpp"
+	"icarus/encounter/animate.hpp"
+	"icarus/encounter/combat_text.hpp"
+	"icarus/encounter/ui/hp_bar.hpp"
+	"icarus/interface/sprite_sheet.hpp"
+
+1367833219 d:\pilot\programfolder\main\include\icarus\math\vector2.hpp
+	<iostream>
+	<SFML/Graphics.hpp>
+	"icarus/math.hpp"
+
+1368124623 d:\pilot\programfolder\main\include\icarus\encounter.hpp
+	<string>
+	<stdint.h>
+	"icarus/math/vector2.hpp"
+
+1367833221 d:\pilot\programfolder\main\include\icarus\encounter\animate.hpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	"icarus/state_manager.hpp"
+	"icarus/math/vector2.hpp"
+	"icarus/config.hpp"
+	"icarus/utils/yth_handler.hpp"
+
+1367833221 d:\pilot\programfolder\main\include\icarus\encounter\combat_text.hpp
+	<vector>
+	<SFML/Graphics.hpp>
+	"icarus/math/vector2.hpp"
+	"icarus/math.hpp"
+
+1367833221 d:\pilot\programfolder\main\include\icarus\encounter\ui\hp_bar.hpp
+	"icarus/encounter/ui/bar.hpp"
+
+1367833221 d:\pilot\programfolder\main\include\icarus\encounter\ui\bar.hpp
+	<SFML/Graphics.hpp>
+	"icarus/math/vector2.hpp"
+	"icarus/utils.hpp"
+
+1367833221 d:\pilot\programfolder\main\include\icarus\encounter\composite_skill.hpp
+	<vector>
+	"icarus/encounter.hpp"
+	"icarus/utils/yth_handler.hpp"
+
+1368124624 d:\pilot\programfolder\main\include\icarus\encounter\data.hpp
+	<queue>
+	"icarus/state_data.hpp"
+	"icarus/utils/yth_handler.hpp"
+
+1367944118 d:\pilot\programfolder\main\include\icarus\encounter\ui\portrait.hpp
+	"icarus/encounter/ui/hp_bar.hpp"
+
+1368124624 d:\pilot\programfolder\main\include\icarus\encounter\character_npc.hpp
+	"icarus/encounter/character_base.hpp"
+	"icarus/encounter/composite_skill.hpp"
+	"icarus/ai/behavior_node.hpp"
+	"icarus/encounter/data.hpp"
+
+1368124623 d:\pilot\programfolder\main\include\icarus\ai\behavior_node.hpp
+	<vector>
+	"icarus/ai.hpp"
+
+1368124622 d:\pilot\programfolder\main\include\icarus\ai.hpp
+
+1367833221 d:\pilot\programfolder\main\include\icarus\encounter\grid.hpp
+	<vector>
+	<SFML/Graphics.hpp>
+	"icarus/encounter/grid_tile.hpp"
+	"icarus/encounter.hpp"
+
+1368124624 d:\pilot\programfolder\main\include\icarus\encounter\grid_tile.hpp
+	<SFML/Graphics.hpp>
+	"icarus/math/vector2.hpp"
+	"icarus/encounter/character_base.hpp"
+	"icarus/interface/sprite_sheet.hpp"
+
+1366820803 d:\pilot\programfolder\main\include\icarus\input_handler.hpp
+	<SFML/Graphics.hpp>
+	"icarus/math/vector2.hpp"
+
+1367833221 d:\pilot\programfolder\main\include\icarus\encounter\skill_handler.hpp
+	<vector>
+	"icarus/encounter.hpp"
+	"icarus/encounter/character_base.hpp"
+	"icarus/encounter/composite_skill.hpp"
+	"icarus/encounter/grid.hpp"
+	"icarus/encounter/projectile.hpp"
+	"icarus/encounter/visual_effect.hpp"
+	"icarus/encounter/ui/skillbar.hpp"
+
+1367944118 d:\pilot\programfolder\main\include\icarus\encounter\projectile.hpp
+	<vector>
+	"icarus/encounter/character_base.hpp"
+	"icarus/encounter.hpp"
+	"icarus/utils/yth_handler.hpp"
+	"icarus/interface/sprite_sheet.hpp"
+
+1367492112 d:\pilot\programfolder\main\include\icarus\encounter\visual_effect.hpp
+	"icarus/encounter/character_base.hpp"
+	"icarus/utils/yth_handler.hpp"
+
+1366718944 d:\pilot\programfolder\main\include\icarus\encounter\ui\skillbar.hpp
+	<SFML/Graphics.hpp>
+	"icarus/encounter/ui/icon.hpp"
+
+1367842666 d:\pilot\programfolder\main\include\icarus\encounter\ui\icon.hpp
+	<SFML/Graphics.hpp>
+	"icarus/utils.hpp"
+	"icarus/interface/base_tooltip.hpp"
+	"icarus/encounter/visual_effect.hpp"
+	"icarus/resource_handler.hpp"
+
+1367944117 d:\pilot\programfolder\main\include\icarus\interface\base_tooltip.hpp
+	<SFML/Graphics.hpp>
+	"icarus/utils/yth_handler.hpp"
+
+1368124637 source:d:\pilot\programfolder\main\src\icarus\ai\debug_node.cpp
+	<iostream>
+	"icarus/ai/debug_node.hpp"
+
+1368124623 d:\pilot\programfolder\main\include\icarus\ai\debug_node.hpp
+	<string>
+	"icarus/ai/behavior_node.hpp"
+
+1368124637 source:d:\pilot\programfolder\main\src\icarus\ai\forced_result_node.cpp
+	"icarus/ai/forced_result_node.hpp"
+
+1368124623 d:\pilot\programfolder\main\include\icarus\ai\forced_result_node.hpp
+	"icarus/ai/behavior_node.hpp"
+
+1368124637 source:d:\pilot\programfolder\main\src\icarus\ai\loop_node.cpp
+	"icarus/ai/loop_node.hpp"
+
+1368124623 d:\pilot\programfolder\main\include\icarus\ai\loop_node.hpp
+	"icarus/ai/behavior_node.hpp"
+
+1368124637 source:d:\pilot\programfolder\main\src\icarus\ai\parallel_node.cpp
+	"icarus/ai/parallel_node.hpp"
+
+1368124623 d:\pilot\programfolder\main\include\icarus\ai\parallel_node.hpp
+	"icarus/ai/behavior_node.hpp"
+
+1368124637 source:d:\pilot\programfolder\main\src\icarus\ai\reversal_node.cpp
+	"icarus/ai/reversal_node.hpp"
+
+1368124623 d:\pilot\programfolder\main\include\icarus\ai\reversal_node.hpp
+	"icarus/ai/behavior_node.hpp"
+
+1368124637 source:d:\pilot\programfolder\main\src\icarus\ai\selector_node.cpp
+	<cstdlib>
+	<cmath>
+	"icarus/ai/selector_node.hpp"
+
+1368124623 d:\pilot\programfolder\main\include\icarus\ai\selector_node.hpp
+	"icarus/ai/behavior_node.hpp"
+
+1368124637 source:d:\pilot\programfolder\main\src\icarus\ai\sequence_node.cpp
+	"icarus/ai/sequence_node.hpp"
+
+1368124623 d:\pilot\programfolder\main\include\icarus\ai\sequence_node.hpp
+	"icarus/ai/behavior_node.hpp"
+
+1368124637 source:d:\pilot\programfolder\main\src\icarus\ai\timer_node.cpp
+	<iostream>
+	"icarus/ai/timer_node.hpp"
+
+1368124623 d:\pilot\programfolder\main\include\icarus\ai\timer_node.hpp
+	<SFML/Graphics.hpp>
+	"icarus/ai/behavior_node.hpp"
+
+1366718947 source:d:\pilot\programfolder\main\src\icarus\config.cpp
+	<iostream>
+	"icarus/config.hpp"
+	"icarus/utils/file.hpp"
+
+1366718944 d:\pilot\programfolder\main\include\icarus\utils\file.hpp
+	<iostream>
+	<fstream>
+	<string>
+
+1368124635 source:d:\pilot\programfolder\main\src\icarus\encounter\ai\condition.cpp
+	"icarus/encounter/ai/condition.hpp"
+
+1368124624 d:\pilot\programfolder\main\include\icarus\encounter\ai\condition.hpp
+	"icarus/ai/behavior_node.hpp"
+	"icarus/encounter/character_npc.hpp"
+
+1368124635 source:d:\pilot\programfolder\main\src\icarus\encounter\ai\task.cpp
+	"icarus/encounter/ai/task.hpp"
+
+1368124624 d:\pilot\programfolder\main\include\icarus\encounter\ai\task.hpp
+	"icarus/ai/behavior_node.hpp"
+	"icarus/encounter/character_npc.hpp"
+
+1367833223 source:d:\pilot\programfolder\main\src\icarus\encounter\animate.cpp
+	"icarus/encounter/animate.hpp"
+	"icarus/resource_handler.hpp"
+	<iostream>
+
+1368124635 source:d:\pilot\programfolder\main\src\icarus\encounter\character_base.cpp
+	"icarus/encounter/character_base.hpp"
+	"icarus/utils.hpp"
+	"icarus/state_manager.hpp"
+	"icarus/encounter/grid.hpp"
+	"icarus/resource_handler.hpp"
+
+1368124635 source:d:\pilot\programfolder\main\src\icarus\encounter\character_hero.cpp
+	"icarus/encounter/character_hero.hpp"
+	"icarus/resource_handler.hpp"
+
+1368124635 source:d:\pilot\programfolder\main\src\icarus\encounter\character_npc.cpp
+	"icarus/encounter/character_npc.hpp"
+	"icarus/ai/selector_node.hpp"
+	"icarus/ai/sequence_node.hpp"
+	"icarus/ai/debug_node.hpp"
+	"icarus/ai/forced_result_node.hpp"
+	"icarus/ai/loop_node.hpp"
+	"icarus/ai/reversal_node.hpp"
+	"icarus/encounter/ai/condition.hpp"
+	"icarus/encounter/ai/task.hpp"
+	"icarus/encounter/grid.hpp"
+	"icarus/resource_handler.hpp"
+
+1367833224 source:d:\pilot\programfolder\main\src\icarus\encounter\combat_text.cpp
+	"icarus/resource_handler.hpp"
+	"icarus/encounter/combat_text.hpp"
+
+1368124635 source:d:\pilot\programfolder\main\src\icarus\encounter\composite_skill.cpp
+	"icarus/encounter/composite_skill.hpp"
+	"icarus/utils.hpp"
+	"icarus/sound.hpp"
+	"icarus/resource_handler.hpp"
+
+1368124635 source:d:\pilot\programfolder\main\src\icarus\encounter\grid.cpp
+	<cmath>
+	<iostream>
+	"icarus/encounter/grid.hpp"
+	"icarus/encounter/character_base.hpp"
+	"icarus/utils.hpp"
+
+1368124635 source:d:\pilot\programfolder\main\src\icarus\encounter\grid_tile.cpp
+	"icarus/encounter/grid_tile.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/state_manager.hpp"
+
+1368124635 source:d:\pilot\programfolder\main\src\icarus\encounter\projectile.cpp
+	"icarus/encounter/projectile.hpp"
+	"icarus/resource_handler.hpp"
+
+1368124635 source:d:\pilot\programfolder\main\src\icarus\encounter\skill_handler.cpp
+	"icarus/encounter/skill_handler.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/encounter/character_npc.hpp"
+	"icarus/encounter/character_hero.hpp"
+	"icarus/state_manager.hpp"
+	"icarus/sound.hpp"
+
+1368124635 source:d:\pilot\programfolder\main\src\icarus\encounter\state.cpp
+	<iostream>
+	"icarus/encounter/state.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/state_manager.hpp"
+	"icarus/encounter/character_npc.hpp"
+	"icarus/utils/yth_handler.hpp"
+	"icarus/sound.hpp"
+
+1368124635 source:d:\pilot\programfolder\main\src\icarus\encounter\ui\bar.cpp
+	"icarus/encounter/ui/bar.hpp"
+	"icarus/resource_handler.hpp"
+
+1368124635 source:d:\pilot\programfolder\main\src\icarus\encounter\ui\hp_bar.cpp
+	"icarus/encounter/ui/hp_bar.hpp"
+
+1367944120 source:d:\pilot\programfolder\main\src\icarus\encounter\ui\icon.cpp
+	"icarus/encounter/ui/icon.hpp"
+	"icarus/state_manager.hpp"
+
+1368124635 source:d:\pilot\programfolder\main\src\icarus\encounter\ui\portrait.cpp
+	"icarus/encounter/ui/portrait.hpp"
+	"icarus/utils.hpp"
+	"icarus/resource_handler.hpp"
+
+1368124635 source:d:\pilot\programfolder\main\src\icarus\encounter\ui\skillbar.cpp
+	"icarus/encounter/ui/skillbar.hpp"
+	"icarus/encounter/character_hero.hpp"
+	"icarus/encounter/state.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/math/vector2.hpp"
+
+1368124635 source:d:\pilot\programfolder\main\src\icarus\encounter\visual_effect.cpp
+	"icarus/encounter/visual_effect.hpp"
+	"icarus/resource_handler.hpp"
+
+1366820804 source:d:\pilot\programfolder\main\src\icarus\input_handler.cpp
+	"icarus/input_handler.hpp"
+
+1367944119 source:d:\pilot\programfolder\main\src\icarus\interface\base_tooltip.cpp
+	"icarus/interface/base_tooltip.hpp"
+
+1367944119 source:d:\pilot\programfolder\main\src\icarus\interface\tooltip_handler.cpp
+	"icarus/interface/tooltip_handler.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/utils.hpp"
+	"icarus/input_handler.hpp"
+	"icarus/state_manager.hpp"
+
+1367842666 d:\pilot\programfolder\main\include\icarus\interface\tooltip_handler.hpp
+	<SFML/Graphics.hpp>
+	"icarus/interface/base_tooltip.hpp"
+	"icarus/math/vector2.hpp"
+
+1368045223 source:d:\pilot\programfolder\main\src\icarus\overworld\battlezone.cpp
+	"icarus/overworld/battlezone.hpp"
+
+1368045141 d:\pilot\programfolder\main\include\icarus\overworld\battlezone.hpp
+	"statistics.hpp"
+	"hex_sprite.hpp"
+
+1368115543 d:\pilot\programfolder\main\include\icarus\overworld\statistics.hpp
+	<vector>
+	<string>
+
+1368101232 d:\pilot\programfolder\main\include\icarus\overworld\hex_sprite.hpp
+	<vector>
+	<iostream>
+	<SFML/Graphics.hpp>
+	"statistics.hpp"
+	"icarus/math/vector2.hpp"
+
+1367944118 source:d:\pilot\programfolder\main\src\icarus\overworld\camera_class.cpp
+	"icarus/overworld/camera_class.h"
+	"icarus/state_manager.hpp"
+	"icarus/overworld/gui/gui_handler.hpp"
+
+1367920500 d:\pilot\programfolder\main\include\icarus\overworld\camera_class.h
+	<SFML/Graphics.hpp>
+	"icarus/math/vector2.hpp"
+	"statistics.hpp"
+	<iostream>
+
+1367928868 source:d:\pilot\programfolder\main\src\icarus\overworld\characacter_holder.cpp
+	"icarus/overworld/characacter_holder.hpp"
+	"icarus/utils/yth_handler.hpp"
+
+1367928765 d:\pilot\programfolder\main\include\icarus\overworld\characacter_holder.hpp
+	<SFML/Graphics.hpp>
+	"icarus/math/vector2.hpp"
+	"icarus/overworld/nation_creator.hpp"
+	"icarus/overworld/hex_sprite.hpp"
+	"icarus/overworld/statistics.hpp"
+	"icarus/overworld/encounter_calculator.hpp"
+	<iostream>
+
+1368127280 d:\pilot\programfolder\main\include\icarus\overworld\nation_creator.hpp
+	"statistics.hpp"
+	"icarus/math/vector2.hpp"
+	"battlezone.hpp"
+	"hex_sprite.hpp"
+	"nation_info.hpp"
+	<vector>
+
+1368127263 d:\pilot\programfolder\main\include\icarus\overworld\nation_info.hpp
+	"hex_sprite.hpp"
+	"statistics.hpp"
+	"icarus/math/vector2.hpp"
+	"battlezone.hpp"
+	<vector>
+
+1367841627 d:\pilot\programfolder\main\include\icarus\overworld\encounter_calculator.hpp
+	"icarus/resource_handler.hpp"
+	"hex_sprite.hpp"
+	"statistics.hpp"
+	"icarus/overworld/nation_creator.hpp"
+
+1368123719 source:d:\pilot\programfolder\main\src\icarus\overworld\hex_grid_creator.cpp
+	"icarus/overworld/hex_grid_creator.hpp"
+
+1368104987 d:\pilot\programfolder\main\include\icarus\overworld\hex_grid_creator.hpp
+	"hex_sprite.hpp"
+	"statistics.hpp"
+	<string>
+	<ctime>
+	<iostream>
+
+1368114994 source:d:\pilot\programfolder\main\src\icarus\overworld\hex_sprite.cpp
+	"icarus/overworld/hex_sprite.hpp"
+
+1368127493 source:d:\pilot\programfolder\main\src\icarus\overworld\nation_creator.cpp
+	"icarus/overworld/nation_creator.hpp"
+
+1368127509 source:d:\pilot\programfolder\main\src\icarus\overworld\nation_info.cpp
+	"icarus/overworld/nation_info.hpp"
+
+1367920499 source:d:\pilot\programfolder\main\src\icarus\overworld\overworld_state.cpp
+	"icarus/overworld/overworld_state.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/sound.hpp"
+	"icarus/overworld/party_handler.hpp"
+	"icarus/state_manager.hpp"
+	<iostream>
+
+1367530720 d:\pilot\programfolder\main\include\icarus\overworld\overworld_state.hpp
+	<SFML/Graphics.hpp>
+	"icarus/base_state.hpp"
+	"icarus/overworld/hex_grid_creator.hpp"
+	"icarus/overworld/nation_creator.hpp"
+	"icarus/overworld/characacter_holder.hpp"
+	"icarus/overworld/camera_class.h"
+	<iostream>
+	"icarus/overworld/statistics.hpp"
+	"icarus/overworld/gui/gui_handler.hpp"
+
+1366718947 source:d:\pilot\programfolder\main\src\icarus\resource_handler.cpp
+	"icarus/resource_handler.hpp"
+
+1367492111 source:d:\pilot\programfolder\main\src\icarus\sound.cpp
+	"icarus/sound.hpp"
+	"icarus/math.hpp"
+
+1367492112 d:\pilot\programfolder\main\include\icarus\sound.hpp
+	<SFML/Audio.hpp>
+	<unordered_map>
+	<queue>
+
+1365236458 c:\sfml2\sfml\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1365236458 c:\sfml2\sfml\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1365236458 c:\sfml2\sfml\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1365236458 c:\sfml2\sfml\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1365236458 c:\sfml2\sfml\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1365236458 c:\sfml2\sfml\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1365236458 c:\sfml2\sfml\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Thread.hpp>
+	<vector>
+
+1368124637 source:d:\pilot\programfolder\main\src\icarus\state_manager.cpp
+	<ctime>
+	"icarus/state_manager.hpp"
+	"icarus/utils.hpp"
+	"icarus/input_handler.hpp"
+	"icarus/encounter/state.hpp"
+	"icarus/overworld/overworld_state.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/interface/tooltip_handler.hpp"
+	"icarus/menu/menu_state.hpp"
+	"icarus/endgame/state.hpp"
+	"icarus/sound.hpp"
+	"icarus/config.hpp"
+
+1367833223 source:d:\pilot\programfolder\main\src\icarus\utils.cpp
+	<fstream>
+	"icarus/utils.hpp"
+
+1366718946 source:d:\pilot\programfolder\main\src\icarus\utils\file.cpp
+	"icarus/utils/file.hpp"
+
+1366718946 source:d:\pilot\programfolder\main\src\icarus\utils\yth_handler.cpp
+	"icarus/utils/yth_handler.hpp"
+
+1368048343 source:d:\pilot\programfolder\main\src\icarus\overworld\encounter_calculator.cpp
+	"icarus/overworld/encounter_calculator.hpp"
+	"icarus/overworld/gui/gui_handler.hpp"
+
+1368124637 source:d:\pilot\programfolder\main\src\icarus\menu\button.cpp
+	"icarus/menu/button.hpp"
+	"icarus/state_manager.hpp"
+	"icarus/menu/menu_state.hpp"
+	"icarus/overworld/overworld_state.hpp"
+	"icarus/encounter/state.hpp"
+	"icarus/resource_handler.hpp"
+
+1367845591 d:\pilot\programfolder\main\include\icarus\menu\button.hpp
+	<SFML/Graphics.hpp>
+	"icarus/math/vector2.hpp"
+
+1367845591 d:\pilot\programfolder\main\include\icarus\menu\menu_state.hpp
+	"icarus/menu/button.hpp"
+	"icarus/base_state.hpp"
+	"icarus/interface/screen_fade.hpp"
+
+1368124637 source:d:\pilot\programfolder\main\src\icarus\menu\menu_state.cpp
+	"icarus/menu/menu_state.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/math/vector2.hpp"
+	"icarus/input_handler.hpp"
+	"icarus/sound.hpp"
+	"icarus/state_manager.hpp"
+
+1368124622 d:\pilot\programfolder\main\include\icarus\overworld\gui\gui_handler.hpp
+	<SFML/Graphics.hpp>
+	"icarus/utils/yth_handler.hpp"
+	"icarus/overworld/gui/encounter_dialog.hpp"
+	"icarus/overworld/gui/post_battle.hpp"
+	"icarus/overworld/gui/party_list.hpp"
+	"icarus/overworld/gui/party_member.hpp"
+	"icarus/overworld/gui/menu_bar.hpp"
+
+1368124622 d:\pilot\programfolder\main\include\icarus\overworld\gui\encounter_dialog.hpp
+	<SFML/Graphics.hpp>
+	"icarus/utils/yth_handler.hpp"
+	"icarus/math/vector2.hpp"
+
+1368124636 source:d:\pilot\programfolder\main\src\icarus\overworld\gui\encounter_dialog.cpp
+	"icarus/overworld/gui/encounter_dialog.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/overworld/party_handler.hpp"
+	"icarus/encounter/data.hpp"
+	"icarus/state_manager.hpp"
+	"icarus/input_handler.hpp"
+	"icarus/utils.hpp"
+	"icarus/sound.hpp"
+
+1368124622 d:\pilot\programfolder\main\include\icarus\overworld\party_handler.hpp
+	"icarus/overworld/party_member.hpp"
+	"icarus/encounter/data.hpp"
+
+1368124622 d:\pilot\programfolder\main\include\icarus\overworld\party_member.hpp
+	"icarus/encounter/data.hpp"
+	"icarus/utils.hpp"
+
+1368124636 source:d:\pilot\programfolder\main\src\icarus\overworld\gui\gui_handler.cpp
+	"icarus/overworld/gui/gui_handler.hpp"
+
+1368124637 source:d:\pilot\programfolder\main\src\icarus\overworld\party_handler.cpp
+	<cstdlib>
+	<cmath>
+	"icarus/overworld/party_handler.hpp"
+	"icarus/math.hpp"
+	"icarus/resource_handler.hpp"
+
+1368124637 source:d:\pilot\programfolder\main\src\icarus\overworld\party_member.cpp
+	<cstdlib>
+	<cmath>
+	"icarus/overworld/party_member.hpp"
+	"icarus/math.hpp"
+	"icarus/encounter.hpp"
+	"icarus/resource_handler.hpp"
+
+1367160272 d:\pilot\programfolder\main\include\icarus\overworld\gui\post_battle.hpp
+	<SFML/Graphics.hpp>
+	"icarus/overworld/gui/double_bar.hpp"
+	"icarus/encounter/data.hpp"
+
+1368124622 d:\pilot\programfolder\main\include\icarus\overworld\gui\double_bar.hpp
+	<SFML/Graphics.hpp>
+	"icarus/math/vector2.hpp"
+	"icarus/utils.hpp"
+
+1368124634 source:d:\pilot\programfolder\main\src\icarus\endgame\state.cpp
+	"icarus/endgame/state.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/utils.hpp"
+	"icarus/input_handler.hpp"
+	"icarus/state_manager.hpp"
+
+1367160272 d:\pilot\programfolder\main\include\icarus\endgame\state.hpp
+	"icarus/base_state.hpp"
+
+1367833222 source:d:\pilot\programfolder\main\src\icarus\overworld\gui\double_bar.cpp
+	"icarus/overworld/gui/double_bar.hpp"
+
+1368124636 source:d:\pilot\programfolder\main\src\icarus\overworld\gui\post_battle.cpp
+	"icarus/overworld/gui/post_battle.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/overworld/party_handler.hpp"
+	"icarus/state_manager.hpp"
+	"icarus/input_handler.hpp"
+	"icarus/sound.hpp"
+
+1367492112 d:\pilot\programfolder\main\include\icarus\encounter\obstacle.hpp
+	"icarus/encounter/character_base.hpp"
+
+1367492111 source:d:\pilot\programfolder\main\src\icarus\encounter\obstacle.cpp
+	"icarus/encounter/obstacle.hpp"
+	"icarus/resource_handler.hpp"
+
+1368124636 source:d:\pilot\programfolder\main\src\icarus\overworld\gui\menu_bar.cpp
+	"icarus/overworld/gui/menu_bar.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/overworld/gui/gui_handler.hpp"
+	"icarus/input_handler.hpp"
+	"icarus/overworld/party_handler.hpp"
+
+1368124622 d:\pilot\programfolder\main\include\icarus\overworld\gui\menu_bar.hpp
+	<SFML/Graphics.hpp>
+	"icarus/math/vector2.hpp"
+	"icarus/encounter/animate.hpp"
+	"icarus/utils.hpp"
+
+1367842667 source:d:\pilot\programfolder\main\src\icarus\interface\sprite_sheet.cpp
+	"icarus/interface/sprite_sheet.hpp"
+	"icarus/resource_handler.hpp"
+
+1368124623 d:\pilot\programfolder\main\include\icarus\interface\sprite_sheet.hpp
+	<unordered_map>
+	<SFML/Graphics.hpp>
+	"icarus/utils/yth_handler.hpp"
+	"icarus/math/vector2.hpp"
+
+1367944118 source:d:\pilot\programfolder\main\src\icarus\overworld\gui\icon.cpp
+	"icarus/overworld/gui/icon.hpp"
+	"icarus/utils.hpp"
+	"icarus/resource_handler.hpp"
+
+1367944117 d:\pilot\programfolder\main\include\icarus\overworld\gui\icon.hpp
+	<SFML/Graphics.hpp>
+	"icarus/math/vector2.hpp"
+	"icarus/interface/base_tooltip.hpp"
+
+1368124636 source:d:\pilot\programfolder\main\src\icarus\overworld\gui\party_list.cpp
+	"icarus/overworld/gui/party_list.hpp"
+	"icarus/overworld/party_handler.hpp"
+	"icarus/overworld/gui/gui_handler.hpp"
+	"icarus/input_handler.hpp"
+	"icarus/resource_handler.hpp"
+
+1368124622 d:\pilot\programfolder\main\include\icarus\overworld\gui\party_list.hpp
+	<SFML/Graphics.hpp>
+	"icarus/overworld/gui/party_list_entry.hpp"
+
+1367944117 d:\pilot\programfolder\main\include\icarus\overworld\gui\party_list_entry.hpp
+	<SFML/Graphics.hpp>
+	"icarus/overworld/gui/double_bar.hpp"
+
+1368124636 source:d:\pilot\programfolder\main\src\icarus\overworld\gui\party_list_entry.cpp
+	"icarus/overworld/gui/party_list_entry.hpp"
+	"icarus/utils.hpp"
+	"icarus/math/vector2.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/state_manager.hpp"
+	"icarus/overworld/party_handler.hpp"
+
+1368124636 source:d:\pilot\programfolder\main\src\icarus\overworld\gui\party_member.cpp
+	"icarus/overworld/gui/party_member.hpp"
+	"icarus/overworld/party_handler.hpp"
+	"icarus/resource_handler.hpp"
+	"icarus/utils.hpp"
+	"icarus/input_handler.hpp"
+
+1368124622 d:\pilot\programfolder\main\include\icarus\overworld\gui\party_member.hpp
+	<SFML/Graphics.hpp>
+	"icarus/overworld/gui/icon.hpp"
+	"icarus/overworld/party_member.hpp"
+	"icarus/encounter/data.hpp"
+	"icarus/encounter/visual_effect.hpp"
+
+1367845591 d:\pilot\programfolder\main\include\icarus\interface\screen_fade.hpp
+	<SFML/Graphics.hpp>
+	"icarus/utils.hpp"
+
+1367845591 source:d:\pilot\programfolder\main\src\icarus\interface\screen_fade.cpp
+	"icarus/interface/screen_fade.hpp"
+	"icarus/state_manager.hpp"
+

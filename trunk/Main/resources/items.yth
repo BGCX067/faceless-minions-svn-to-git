@@ -1,0 +1,432 @@
+####
+#### BALANCE ALL ITEM STATS FOR LEVEL 10!
+####
+<items>
+	<weapons>
+		<base_items>
+			<spork>
+				<name:Spork/>
+				<icon:weapon/>
+				<damage_min:20-20/>
+				<damage_max:20-20/>
+				<crit_chance:5-5/>
+			</spork>
+			<canopener>
+				<name:Can Opener/>
+				<icon:weapon/>
+				<damage_min:15-15/>
+				<damage_max:20-25
+			</canopener>
+			<pitchfork>
+				<name:Pitchfork/>
+				<icon:weapon/>
+				<damage_min:10-15/>
+				<damage_max:20-25/>
+			</pitchfork>
+			<spear>
+				<name:Spear/>
+				<icon:weapon/>
+				<damage_min:10-20/>
+				<damage_max:20-25/>
+			</spear>
+			<dagger>
+				<name:Dagger/>
+				<icon:weapon/>
+				<damage_min:20-20/>
+				<damage_max:30-50/>
+				<dodge_chance:5-10/>
+			</dagger>
+			<shortsword>
+				<name:Shortsword/>
+				<icon:weapon/>
+				<damage_min:20-25/>
+				<damage_max:25-30/>
+			</shortsword>
+			<longsword>
+				<name:Longsword/>
+				<icon:weapon/>
+				<damage_min:30-40/>
+				<damage_max:40-50/>
+			</longsword>
+			<Greatsword>
+				<name:Greatsword/>
+				<icon:weapon/>
+				<damage_min:50-75/>
+				<damage_max:75-100/>
+			</Greatsword>
+			<broadsword>
+				<name:Broadsword/>
+				<icon:weapon/>
+				<damage_min:40-60/>
+				<damage_max:60-80/>
+			</broadsword>
+			<bastard_Sword>
+				<name:Bastard Sword/>
+				<icon:weapon/>
+				<damage_min:50-70/>
+				<damage_max:80-100/>
+			</bastard_Sword>
+			<mace>
+				<name:Mace/>
+				<icon:weapon/>
+				<damage_min:30-50/>
+				<damage_max:60-80/>
+			</mace>
+			<flail>
+				<name:Flail/>
+				<icon:weapon/>
+				<damage_min:40-30/>
+				<damage_max:70-90/>
+			</flail>
+			<morningstar>
+				<name:Morningstar/>
+				<icon:weapon/>
+				<damage_min:30-50/>
+				<damage_max:50-70/>
+			</morningstar>
+			<hammer>
+				<name:Greathammer/>
+				<icon:weapon/>
+				<damage_min:50-60/>
+				<damage_max:140-160/>
+			</hammer>
+			<warhammer>
+				<name:Warhammer/>
+				<icon:weapon/>
+				<damage_min:80-90/>
+				<damage_max:100-120/>
+			</warhammer>
+			<axe>
+				<name:War Axe/>
+				<icon:weapon/>
+				<damage_min:10-15/>
+				<damage_max:30-40/>
+			</axe>
+			<battleaxe>
+				<name:Battleaxe/>
+				<icon:weapon/>
+				<damage_min:20-30/>
+				<damage_max:70-90/>
+			</battleaxe>
+			<warscythe>
+				<name:Warscythe/>
+				<icon:weapon/>
+				<damage_min:10-20/>
+				<damage_max:50-60/>
+			</warscythe>
+			<scepter>
+				<name:Scepter/>
+				<icon:weapon/>
+				<damage_min:10-20/>
+				<damage_max:50-60/>
+			</scepter>
+		</base_items>
+		<affixes>
+			<glory>
+				<pretext:Glorious/>
+				<posttext:of Glory/>
+				<strength:10-20/>
+				<intelligence:10-20/>
+				<health_regen:2-7/>
+			</glory>
+			<bear>
+				<pretext:Beary/>
+				<posttext:of the Bear/>
+				<strength:10-20/>
+				<health_regen:0-5/>
+			</bear>
+			<wolf>
+				<pretext:Wolf/>
+				<posttext:of the Wolf/>
+				<strength:5-20/>
+				<strength:1-5/>
+			</wolf>
+			<fox>
+				<pretext:Foxy/>
+				<posttext:of the Fox/>
+				<agility:5-20/>
+				<intelligence:10-20/>
+			</fox>
+			<intelligence>
+				<pretext:Intelligent/>
+				<posttext:of Intelligence/>
+				<intelligence:30-70/>
+			</intelligence>
+			<health>
+				<pretext:Healthy/>
+				<posttext:of Health/>
+				<health_bonus:150-300/>
+			</health>
+			<dervobane>
+				<pretext:Dervosbane/>
+				<posttext:, bane of Dervo/>
+				<intelligence:15-25/>
+				<resist_chance:0-5/>
+			</dervobane>
+			<violent>
+				<pretext:Violent/>
+				<posttext:of Violence/>
+				<damage:15-25/>
+				<damage_mod:0.0-0.05/>
+			</violent>
+			<balanced>
+				<pretext:Balanced/>
+				<posttext:of Balance/>
+				<damage:5-10/>
+			</balanced>
+			<lightning>
+				<pretext:Lightning/>
+				<posttext: of the Lightning/>
+				<agility:10-20/>
+				<dodge_chance:0.0-0.05/>
+			</lightning>
+		</affixes>
+	</weapons>
+	<armor>
+		<base_items>
+			<steel_armor>
+				<name:Steel Armor/>
+				<icon:armor/>
+				<health_bonus:200-250/>
+				<armor:20-25/>
+			</steel_armor>
+			<chain_mail>
+				<name:Chain Mail/>
+				<icon:armor/>
+				<health_bonus:150-200/>
+				<armor:15-20/>
+			</chain_mail>
+			<leather_vest>
+				<name:Leather Vest/>
+				<icon:armor/>
+				<health_bonus:75-100/>
+				<health_regen:0-5/>
+				<armor:5-10/>
+			</leather_vest>
+			<studded_leather_vest>
+				<name:Studded Leather Vest/>
+				<icon:armor/>
+				<health_bonus:100-150/>
+				<health_regen:0-5/>
+				<armor:10-20/>
+			</studded_leather_vest>
+			<denim_jacket>
+				<name:Denim Jacket/>
+				<icon:armor/>
+				<health_bonus:50-75/>
+				<strength:10-20/>
+				<armor:0-5/>
+			</denim_jacket>
+		</base_items>
+		<affixes>
+			<manly>
+				<pretext:Manly/>
+				<posttext:of Manliness/>
+				<strength:25-30/>
+			</manly>
+			<swift>
+				<pretext:Swift/>
+				<posttext:of Swiftness/>
+				<agility:25-30/>
+				<crit_chance:0-5/>
+				<crit_mult:0.0-0.2/>
+			</swift>
+			<intelligence>
+				<pretext:Intelligent/>
+				<posttext:of Intelligence/>
+				<intelligence:30-70/>
+			</intelligence>
+			<health>
+				<pretext:Healthy/>
+				<posttext:of Health/>
+				<health_bonus:150-300/>
+			</health>
+		</affixes>
+	</armor>
+	<misc>
+		<base_items>
+			<pocketwatch>
+				<name:Pocket Watch/>
+				<icon:misc/>
+				<health_regen:0-10/>
+			</pocketwatch>
+			<fake_mustache>
+				<name:Fake Mustache/>
+				<icon:misc/>
+				<health_bonus:0-10/>
+				<armor:0-10/>
+			</fake_mustache>
+			<goggles>
+				<name:Goggles/>
+				<icon:misc/>
+				<intelligence:10-30/>
+				<armor:0-10/>
+			</goggles>
+			<braser>
+				<name:Bracer/>
+				<icon:misc/>
+				<armor:10-20/>
+			</braser>
+			<boots>
+				<name:Boots/>
+				<icon:misc/>
+				<armor:10-20/>
+			</boots>
+			<leatherbelt>
+				<name:Leather Belt/>
+				<icon:misc/>
+				<armor:10-25/>
+			</leatherbelt>
+			<leatherapron>
+				<name:Leather Apron/>
+				<icon:misc/>
+				<armor:10-20/>
+			</leatherapron>
+		</base_items>
+		<affixes>
+			<fabulous>
+				<pretext:Fabulous/>
+				<posttext:/>
+				<damage:20-30/>
+			</fabulous>
+			<intelligence>
+				<pretext:Intelligent/>
+				<posttext:of Intelligence/>
+				<intelligence:30-70/>
+			</intelligence>
+			<health>
+				<pretext:Healthy/>
+				<posttext:of Health/>
+				<health_bonus:150-300/>
+			</health>
+			<glory>
+				<pretext:Glorious/>
+				<posttext:of Glory/>
+				<strength:10-20/>
+				<intelligence:10-20/>
+				<health_regen:2-7/>
+			</glory>
+			<bear>
+				<pretext:Beary/>
+				<posttext:of the Bear/>
+				<strength:10-20/>
+				<health_regen:0-5/>
+			</bear>
+			<wolf>
+				<pretext:Wolf/>
+				<posttext:of the Wolf/>
+				<agility:5-20/>
+				<strength:1-5/>
+			</wolf>
+			<fox>
+				<pretext:Foxy/>
+				<posttext:of the Fox/>
+				<agility:5-20/>
+				<intelligence:10-20/>
+			</fox>
+		</affixes>
+	</misc>
+	<hats>
+		<base_items>
+			<tophat>
+				<name:Top Hat/>
+				<icon:hat/>
+				<intelligence:10-20/>
+				<strength:10-20/>
+				<agility:10-20/>
+			</tophat>
+			<cap>
+				<name:Arming Cap/>
+				<icon:hat/>
+				<intelligence:5-15/>
+				<strength:5-15/>
+				<agility:15-25/>
+			</cap>
+			<skullmask>
+				<name:Skull Mask/>
+				<icon:hat/>
+				<strength:15-25/>
+				<agility:15-25/>
+			</skullmask>
+			<beanie>
+				<name:Beanie/>
+				<icon:hat/>
+				<strength:0-20/>
+				<agility:0-20/>
+			</beanie>
+			<barbut>
+				<name:Barbut/>
+				<icon:hat/>
+				<armor:10-30/>
+			</barbut>
+			<sallet>
+				<name:Sallet/>
+				<icon:hat/>
+				<armor:25-35/>
+				<strength:10-15/>
+			</sallet>
+			<chaincoif>
+				<name:Coif/>
+				<icon:hat/>
+				<armor:10-20/>
+			</chaincoif>
+			<bandana>
+				<name:Bandana/>
+				<icon:hat/>
+				<armor:5-15/>
+			</bandana>
+			<strawhat>
+				<name:Straw Hat/>
+				<icon:hat/>
+				<armor:5-15/>
+			</strawhat>
+		</base_items>
+		<affixes>
+			<cynical>
+				<pretext:Cynical/>
+				<posttext:of Cynicism/>
+				<dodge_chance:1-10/>
+			</cynical>
+			<british>
+				<pretext:British/>
+				<posttext:of the British/>
+				<damage:20-30/>
+			</british>
+			<glory>
+				<pretext:Glorious/>
+				<posttext:of Glory/>
+				<strength:10-20/>
+				<intelligence:10-20/>
+				<health_regen:2-7/>
+			</glory>
+			<bear>
+				<pretext:Beary/>
+				<posttext:of the Bear/>
+				<strength:10-20/>
+				<health_regen:0-5/>
+			</bear>
+			<wolf>
+				<pretext:Wolf/>
+				<posttext:of the Wolf/>
+				<agility:5-20/>
+				<strength:1-5/>
+			</wolf>
+			<fox>
+				<pretext:Foxy/>
+				<posttext:of the Fox/>
+				<agility:5-20/>
+				<intelligence:10-20/>
+			</fox>
+			<board>
+				<pretext:Cardboard/>
+				<posttext:of Cardboard/>
+				<dodge_chance:1-10/>
+			</board>
+			<metal>
+				<pretext:Metal/>
+				<posttext:of Metal/>
+				<dodge_chance:1-10/>
+			</metal>
+		</affixes>
+	</hats>
+</items>
